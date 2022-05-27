@@ -286,6 +286,11 @@
 			quid       	"4BB79B660139"
 			concurrency 	"Sequential"
 			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "retrieving_data( )"
+			quid       	"4BB7990000FA"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
 			uid        	0)))
 	    (object Class "Management_menu"
 		quid       	"4BB7989401B6"
@@ -1513,7 +1518,7 @@
 				    location   	(96, 544)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	471
+				    max_width  	475
 				    justify    	0
 				    label      	"Moshtari")
 				icon       	"Actor"
@@ -1542,7 +1547,7 @@
 				    location   	(1520, 465)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	654
+				    max_width  	657
 				    justify    	0
 				    label      	"Main page")
 				icon       	"boundary"
@@ -1573,7 +1578,7 @@
 				    location   	(2000, 237)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	657
+				    max_width  	661
 				    justify    	0
 				    label      	"Private page")
 				icon       	"boundary"
@@ -1604,7 +1609,7 @@
 				    location   	(2438, 1259)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	438
+				    max_width  	441
 				    justify    	0
 				    label      	"Verification")
 				icon       	"control"
@@ -1634,7 +1639,7 @@
 				    location   	(1196, 696)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	661
+				    max_width  	664
 				    justify    	0
 				    label      	"log_in")
 				icon       	"boundary"
@@ -1665,7 +1670,7 @@
 				    location   	(1064, 1542)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	664
+				    max_width  	667
 				    justify    	0
 				    label      	"List tour")
 				icon       	"boundary"
@@ -1696,7 +1701,7 @@
 				    location   	(1182, 1185)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	513
+				    max_width  	516
 				    justify    	0
 				    label      	"Tour selection menu")
 				icon       	"entity"
@@ -1726,7 +1731,7 @@
 				    location   	(996, 1878)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	516
+				    max_width  	518
 				    justify    	0
 				    label      	"Reserve confirmation")
 				icon       	"entity"
@@ -3255,8 +3260,8 @@
 				collaborators 	(list link_list
 				    (object Link
 					quid       	"4BB7980303AE"
-					supplier   	"Verification"
-					quidu      	"4BB7980303A4"
+					supplier   	"Private page"
+					quidu      	"4BB7980303AF"
 					messages   	(list Messages
 					    (object Message "true_pass( )"
 						quid       	"4BB7980303AD"
@@ -3270,7 +3275,7 @@
 				class      	"Use Case View::private_page"
 				quidu      	"4BB799A00167"
 				persistence 	"Transient"
-				creationObj 	TRUE
+				creationObj 	FALSE
 				multi      	FALSE)
 			    (object Object "Management menu"
 				quid       	"4BB7980303CA"
@@ -3278,17 +3283,7 @@
 				    (object Link
 					quid       	"4BB79EA9037B"
 					supplier   	"Data base"
-					quidu      	"4BB79DCC0000"
-					messages   	(list Messages
-					    (object Message "retrieving_data( )"
-						quid       	"4BB79EA9037C"
-						frequency  	"Aperiodic"
-						synchronization 	"Simple"
-						dir        	"FromClientToSupplier"
-						sequence   	"7"
-						ordinal    	6
-						quidu      	"4BB79EB001A6"
-						creation   	FALSE))))
+					quidu      	"4BB79DCC0000"))
 				class      	"Use Case View::Management_menu"
 				quidu      	"4BB7989401B6"
 				persistence 	"Transient"
@@ -3299,8 +3294,8 @@
 				collaborators 	(list link_list
 				    (object Link
 					quid       	"4BB7980303B7"
-					supplier   	"Modiriat"
-					quidu      	"4BB79803038B"
+					supplier   	"List gozareshat"
+					quidu      	"4BB7980303B6"
 					messages   	(list Messages
 					    (object Message "Display( )"
 						quid       	"4BB7980303B8"
@@ -3360,6 +3355,15 @@
 						sequence   	"11"
 						ordinal    	10
 						quidu      	"4BB79EEA036B"
+						creation   	FALSE)
+					    (object Message "retrieving_data( )"
+						quid       	"4BB798F80177"
+						frequency  	"Aperiodic"
+						synchronization 	"Simple"
+						dir        	"ToClientFromSupplier"
+						sequence   	"7"
+						ordinal    	6
+						quidu      	"4BB7990000FA"
 						creation   	FALSE))))
 				class      	"Use Case View::list_gozareshat"
 				quidu      	"4BB7984F01D5"
@@ -3420,11 +3424,11 @@
 			mechanism_ref 	@137
 			quid       	"4BB797E9038B"
 			title      	"Seq Gozarsh"
-			zoom       	100
+			zoom       	75
 			max_height 	28350
 			max_width  	21600
-			origin_x   	994
-			origin_y   	563
+			origin_x   	625
+			origin_y   	0
 			items      	(list diagram_item_list
 			    (object InterObjView "Modiriat" @138
 				location   	(258, 225)
@@ -3442,7 +3446,7 @@
 				    location   	(258, 254)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	222
+				    max_width  	360
 				    justify    	0
 				    label      	"Modiriat")
 				icon       	"Actor"
@@ -3450,8 +3454,8 @@
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"4BB79803038B"
-				width      	234
-				height     	2223
+				width      	120
+				height     	2262
 				icon_height 	162
 				icon_width 	120
 				icon_y_offset 	0
@@ -3478,25 +3482,25 @@
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @142
-				    location   	(258, 1569)
+				    location   	(258, 1608)
 				    line_color 	3342489
 				    InterObjView 	@138
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @143
-				    location   	(258, 1699)
+				    location   	(258, 1737)
 				    line_color 	3342489
 				    InterObjView 	@138
-				    height     	90
-				    y_coord    	0
+				    height     	91
+				    y_coord    	1
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @144
-				    location   	(258, 1852)
+				    location   	(258, 1890)
 				    line_color 	3342489
 				    InterObjView 	@138
-				    height     	90
-				    y_coord    	0
+				    height     	91
+				    y_coord    	1
 				    Nested     	FALSE))
 			    (object InterObjView "Main page" @145
 				location   	(693, 225)
@@ -3514,7 +3518,7 @@
 				    location   	(693, 255)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	651
+				    max_width  	687
 				    justify    	0
 				    label      	"Main page")
 				icon       	"boundary"
@@ -3522,10 +3526,10 @@
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"4BB798030398"
-				width      	518
-				height     	2223
-				icon_height 	141
-				icon_width 	217
+				width      	229
+				height     	2262
+				icon_height 	153
+				icon_width 	229
 				icon_y_offset 	0
 				annotation 	1
 				Focus_Of_Control 	(object Focus_Of_Control "" @146
@@ -3551,7 +3555,7 @@
 				    location   	(1176, 255)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	651
+				    max_width  	687
 				    justify    	0
 				    label      	"log_in")
 				icon       	"boundary"
@@ -3559,10 +3563,10 @@
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"4BB79803039C"
-				width      	330
-				height     	2223
-				icon_height 	141
-				icon_width 	217
+				width      	229
+				height     	2262
+				icon_height 	153
+				icon_width 	229
 				icon_y_offset 	0
 				annotation 	1
 				Focus_Of_Control 	(object Focus_Of_Control "" @148
@@ -3602,7 +3606,7 @@
 				    location   	(1584, 257)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	435
+				    max_width  	471
 				    justify    	0
 				    label      	"Verification")
 				icon       	"control"
@@ -3610,10 +3614,10 @@
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"4BB7980303A4"
-				width      	298
-				height     	2220
-				icon_height 	152
-				icon_width 	145
+				width      	157
+				height     	2259
+				icon_height 	164
+				icon_width 	157
 				icon_y_offset 	0
 				annotation 	1
 				Focus_Of_Control 	(object Focus_Of_Control "" @152
@@ -3653,7 +3657,7 @@
 				    location   	(2094, 279)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	651
+				    max_width  	687
 				    justify    	0
 				    label      	"Private page")
 				icon       	"boundary"
@@ -3661,10 +3665,10 @@
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"4BB7980303AF"
-				width      	602
-				height     	2199
-				icon_height 	141
-				icon_width 	217
+				width      	229
+				height     	2238
+				icon_height 	153
+				icon_width 	229
 				icon_y_offset 	0
 				annotation 	1
 				Focus_Of_Control 	(object Focus_Of_Control "" @156
@@ -3698,8 +3702,8 @@
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"4BB7980303CA"
-				width      	474
-				height     	2223
+				width      	154
+				height     	2262
 				icon_height 	153
 				icon_width 	154
 				icon_y_offset 	0
@@ -3710,15 +3714,8 @@
 				    InterObjView 	@157
 				    height     	90
 				    y_coord    	0
-				    Nested     	FALSE)
-				Focus_Of_Control 	(object Focus_Of_Control "" @159
-				    location   	(2700, 1359)
-				    line_color 	3342489
-				    InterObjView 	@157
-				    height     	90
-				    y_coord    	0
 				    Nested     	FALSE))
-			    (object InterObjView "List gozareshat" @160
+			    (object InterObjView "List gozareshat" @159
 				location   	(3186, 243)
 				font       	(object Font
 				    size       	12
@@ -3730,11 +3727,11 @@
 				    color      	0
 				    default_color 	TRUE)
 				label      	(object ItemLabel
-				    Parent_View 	@160
+				    Parent_View 	@159
 				    location   	(3186, 273)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	365
+				    max_width  	687
 				    justify    	0
 				    label      	"List gozareshat")
 				icon       	"boundary"
@@ -3742,44 +3739,51 @@
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"4BB7980303B6"
-				width      	376
-				height     	2205
+				width      	229
+				height     	2244
 				icon_height 	153
 				icon_width 	229
 				icon_y_offset 	0
 				annotation 	1
-				Focus_Of_Control 	(object Focus_Of_Control "" @161
-				    location   	(3186, 1569)
+				Focus_Of_Control 	(object Focus_Of_Control "" @160
+				    location   	(3186, 1488)
 				    line_color 	3342489
-				    InterObjView 	@160
+				    InterObjView 	@159
+				    height     	90
+				    y_coord    	0
+				    Nested     	FALSE)
+				Focus_Of_Control 	(object Focus_Of_Control "" @161
+				    location   	(3186, 1608)
+				    line_color 	3342489
+				    InterObjView 	@159
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @162
-				    location   	(3186, 1698)
+				    location   	(3186, 1737)
 				    line_color 	3342489
-				    InterObjView 	@160
+				    InterObjView 	@159
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @163
-				    location   	(3186, 1851)
+				    location   	(3186, 1890)
 				    line_color 	3342489
-				    InterObjView 	@160
+				    InterObjView 	@159
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @164
-				    location   	(3186, 1956)
+				    location   	(3186, 1995)
 				    line_color 	3342489
-				    InterObjView 	@160
+				    InterObjView 	@159
 				    height     	91
 				    y_coord    	1
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @165
-				    location   	(3186, 2094)
+				    location   	(3186, 2133)
 				    line_color 	3342489
-				    InterObjView 	@160
+				    InterObjView 	@159
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE))
@@ -3799,7 +3803,7 @@
 				    location   	(3585, 255)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	263
+				    max_width  	462
 				    justify    	0
 				    label      	"Data base")
 				icon       	"entity"
@@ -3807,21 +3811,21 @@
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"4BB79DCC0000"
-				width      	274
-				height     	2223
+				width      	154
+				height     	2262
 				icon_height 	153
 				icon_width 	154
 				icon_y_offset 	0
 				annotation 	1
 				Focus_Of_Control 	(object Focus_Of_Control "" @167
-				    location   	(3585, 1359)
+				    location   	(3585, 1488)
 				    line_color 	3342489
 				    InterObjView 	@166
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @168
-				    location   	(3585, 1956)
+				    location   	(3585, 1995)
 				    line_color 	3342489
 				    InterObjView 	@166
 				    height     	90
@@ -3843,7 +3847,7 @@
 				    location   	(4008, 284)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	413
+				    max_width  	471
 				    justify    	0
 				    label      	"Olaviat Gozaresh")
 				icon       	"control"
@@ -3851,28 +3855,28 @@
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"4BB79B9D031D"
-				width      	424
-				height     	2193
+				width      	157
+				height     	2232
 				icon_height 	164
 				icon_width 	157
 				icon_y_offset 	0
 				annotation 	1
 				Focus_Of_Control 	(object Focus_Of_Control "" @170
-				    location   	(4008, 2094)
+				    location   	(4008, 2133)
 				    line_color 	3342489
 				    InterObjView 	@169
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE)
 				Focus_Of_Control 	(object Focus_Of_Control "" @171
-				    location   	(4008, 2268)
+				    location   	(4008, 2307)
 				    line_color 	3342489
 				    InterObjView 	@169
 				    height     	90
 				    y_coord    	0
 				    Nested     	FALSE))
 			    (object InterObjView "Karmand" @172
-				location   	(4407, 249)
+				location   	(4461, 258)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -3884,10 +3888,10 @@
 				    default_color 	TRUE)
 				label      	(object ItemLabel
 				    Parent_View 	@172
-				    location   	(4407, 278)
+				    location   	(4461, 287)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	241
+				    max_width  	360
 				    justify    	0
 				    label      	"Karmand")
 				icon       	"Actor"
@@ -3895,14 +3899,14 @@
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"4BB799E20177"
-				width      	252
-				height     	2199
+				width      	120
+				height     	2229
 				icon_height 	162
 				icon_width 	120
 				icon_y_offset 	0
 				annotation 	1
 				Focus_Of_Control 	(object Focus_Of_Control "" @173
-				    location   	(4407, 2268)
+				    location   	(4461, 2307)
 				    line_color 	3342489
 				    InterObjView 	@172
 				    height     	90
@@ -3934,7 +3938,7 @@
 				    quidu      	"4BB79803038D"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	318
+				    max_width  	321
 				    justify    	0
 				    label      	"enter_url( )"
 				    pctDist    	0.506452
@@ -3974,7 +3978,7 @@
 				    quidu      	"4BB798030391"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	356
+				    max_width  	363
 				    justify    	0
 				    label      	"enter_pass( )"
 				    pctDist    	0.500000
@@ -4014,7 +4018,7 @@
 				    quidu      	"4BB79803039E"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	364
+				    max_width  	375
 				    justify    	0
 				    label      	"check_pass( )"
 				    pctDist    	0.500000
@@ -4054,7 +4058,7 @@
 				    quidu      	"4BB7980303A0"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	342
+				    max_width  	344
 				    justify    	0
 				    label      	"false_pass( )"
 				    pctDist    	0.459691
@@ -4094,7 +4098,7 @@
 				    quidu      	"4BB7980303AD"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	330
+				    max_width  	333
 				    justify    	0
 				    label      	"true_pass( )"
 				    pctDist    	0.501031
@@ -4134,7 +4138,7 @@
 				    quidu      	"4BB798030394"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	540
+				    max_width  	558
 				    justify    	0
 				    label      	"select_gozaresh_ha( )"
 				    pctDist    	0.499833
@@ -4149,7 +4153,7 @@
 				terminus   	(2684, 1236)
 				ordinal    	5)
 			    (object InterMessView "select_gozaresh( )" @186
-				location   	(3, 1699)
+				location   	(3, 1738)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -4161,7 +4165,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @187
 				    Parent_View 	@186
-				    location   	(1713, 1657)
+				    location   	(1713, 1696)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -4174,7 +4178,7 @@
 				    quidu      	"4BB7980303BA"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	462
+				    max_width  	504
 				    justify    	0
 				    label      	"select_gozaresh( )"
 				    pctDist    	0.497269
@@ -4182,14 +4186,14 @@
 				    orientation 	0)
 				line_color 	3342489
 				client     	@138
-				supplier   	@160
+				supplier   	@159
 				Focus_Src  	@143
 				Focus_Entry 	@162
-				origin     	(273, 1699)
-				terminus   	(3170, 1699)
+				origin     	(273, 1738)
+				terminus   	(3170, 1738)
 				ordinal    	8)
 			    (object InterMessView "Display( )" @188
-				location   	(3, 1569)
+				location   	(3, 1608)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -4201,7 +4205,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @189
 				    Parent_View 	@188
-				    location   	(1729, 1525)
+				    location   	(1729, 1564)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -4221,15 +4225,15 @@
 				    height     	45
 				    orientation 	1)
 				line_color 	3342489
-				client     	@160
+				client     	@159
 				supplier   	@138
 				Focus_Src  	@161
 				Focus_Entry 	@142
-				origin     	(3170, 1569)
-				terminus   	(274, 1569)
+				origin     	(3170, 1608)
+				terminus   	(274, 1608)
 				ordinal    	7)
 			    (object InterMessView "select_priority( )" @190
-				location   	(3, 1852)
+				location   	(3, 1891)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -4241,7 +4245,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @191
 				    Parent_View 	@190
-				    location   	(1715, 1806)
+				    location   	(1715, 1845)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -4254,7 +4258,7 @@
 				    quidu      	"4BB79B2802DF"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	452
+				    max_width  	458
 				    justify    	0
 				    label      	"select_priority( )"
 				    pctDist    	0.497922
@@ -4262,14 +4266,14 @@
 				    orientation 	0)
 				line_color 	3342489
 				client     	@138
-				supplier   	@160
+				supplier   	@159
 				Focus_Src  	@144
 				Focus_Entry 	@163
-				origin     	(273, 1852)
-				terminus   	(3170, 1852)
+				origin     	(273, 1891)
+				terminus   	(3170, 1891)
 				ordinal    	9)
 			    (object InterMessView "check_priority( )" @192
-				location   	(3, 2094)
+				location   	(3, 2133)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -4281,7 +4285,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @193
 				    Parent_View 	@192
-				    location   	(3609, 2054)
+				    location   	(3609, 2093)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -4294,22 +4298,22 @@
 				    quidu      	"4BB79C0401B7"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	452
+				    max_width  	458
 				    justify    	0
 				    label      	"check_priority( )"
 				    pctDist    	0.516355
 				    height     	41
 				    orientation 	0)
 				line_color 	3342489
-				client     	@160
+				client     	@159
 				supplier   	@169
 				Focus_Src  	@165
 				Focus_Entry 	@170
-				origin     	(3201, 2094)
-				terminus   	(3992, 2094)
+				origin     	(3201, 2133)
+				terminus   	(3992, 2133)
 				ordinal    	11)
 			    (object InterMessView "high_priority( )" @194
-				location   	(3, 2268)
+				location   	(3, 2307)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -4321,7 +4325,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @195
 				    Parent_View 	@194
-				    location   	(4207, 2224)
+				    location   	(4234, 2263)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -4345,11 +4349,11 @@
 				supplier   	@172
 				Focus_Src  	@171
 				Focus_Entry 	@173
-				origin     	(4023, 2268)
-				terminus   	(4391, 2268)
+				origin     	(4023, 2307)
+				terminus   	(4445, 2307)
 				ordinal    	12)
-			    (object InterMessView "retrieving_data( )" @196
-				location   	(3, 1359)
+			    (object InterMessView "add_priority( )" @196
+				location   	(3, 1996)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -4361,47 +4365,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @197
 				    Parent_View 	@196
-				    location   	(3142, 1315)
-				    font       	(object Font
-					size       	12
-					face       	"Tahoma"
-					bold       	FALSE
-					italics    	FALSE
-					underline  	FALSE
-					strike     	FALSE
-					color      	0
-					default_color 	TRUE)
-				    quidu      	"4BB79EA9037C"
-				    anchor_loc 	1
-				    nlines     	1
-				    max_width  	446
-				    justify    	0
-				    label      	"retrieving_data( )"
-				    pctDist    	0.500000
-				    height     	45
-				    orientation 	0)
-				line_color 	3342489
-				client     	@157
-				supplier   	@166
-				Focus_Src  	@159
-				Focus_Entry 	@167
-				origin     	(2715, 1359)
-				terminus   	(3569, 1359)
-				ordinal    	6)
-			    (object InterMessView "add_priority( )" @198
-				location   	(3, 1957)
-				font       	(object Font
-				    size       	12
-				    face       	"Tahoma"
-				    bold       	FALSE
-				    italics    	FALSE
-				    underline  	FALSE
-				    strike     	FALSE
-				    color      	0
-				    default_color 	TRUE)
-				label      	(object SegLabel @199
-				    Parent_View 	@198
-				    location   	(3385, 1913)
+				    location   	(3385, 1952)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -4421,13 +4385,53 @@
 				    height     	45
 				    orientation 	0)
 				line_color 	3342489
-				client     	@160
+				client     	@159
 				supplier   	@166
 				Focus_Src  	@164
 				Focus_Entry 	@168
-				origin     	(3201, 1957)
-				terminus   	(3569, 1957)
-				ordinal    	10)))
+				origin     	(3201, 1996)
+				terminus   	(3569, 1996)
+				ordinal    	10)
+			    (object InterMessView "retrieving_data( )" @198
+				location   	(3, 1488)
+				font       	(object Font
+				    size       	12
+				    face       	"Tahoma"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object SegLabel @199
+				    Parent_View 	@198
+				    location   	(3386, 1444)
+				    font       	(object Font
+					size       	12
+					face       	"Tahoma"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    quidu      	"4BB798F80177"
+				    anchor_loc 	1
+				    nlines     	1
+				    max_width  	464
+				    justify    	0
+				    label      	"retrieving_data( )"
+				    pctDist    	0.500000
+				    height     	45
+				    orientation 	1)
+				line_color 	3342489
+				client     	@166
+				supplier   	@159
+				Focus_Src  	@167
+				Focus_Entry 	@160
+				origin     	(3569, 1488)
+				terminus   	(3202, 1488)
+				ordinal    	6)))
 		    (object ObjectDiagram "Seq Gozarsh"
 			mechanism_ref 	@137
 			quid       	"4BB79F100223"
@@ -4454,7 +4458,7 @@
 				    location   	(195, 688)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	475
+				    max_width  	479
 				    justify    	0
 				    label      	"Modiriat")
 				icon       	"Actor"
@@ -4483,7 +4487,7 @@
 				    location   	(164, 1233)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	652
+				    max_width  	654
 				    justify    	0
 				    label      	"Main page")
 				icon       	"boundary"
@@ -4514,7 +4518,7 @@
 				    location   	(482, 237)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	654
+				    max_width  	657
 				    justify    	0
 				    label      	"log_in")
 				icon       	"boundary"
@@ -4530,7 +4534,7 @@
 				x_offset   	0.000000
 				y_offset   	0.000000)
 			    (object ObjectView "Verification" @203
-				location   	(2100, 108)
+				location   	(2118, 168)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -4542,10 +4546,10 @@
 				    default_color 	TRUE)
 				label      	(object ItemLabel
 				    Parent_View 	@203
-				    location   	(2099, 269)
+				    location   	(2117, 329)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	436
+				    max_width  	438
 				    justify    	0
 				    label      	"Verification")
 				icon       	"control"
@@ -4575,7 +4579,7 @@
 				    location   	(443, 1557)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	657
+				    max_width  	661
 				    justify    	0
 				    label      	"Private page")
 				icon       	"boundary"
@@ -4606,7 +4610,7 @@
 				    location   	(1647, 1692)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	559
+				    max_width  	562
 				    justify    	0
 				    label      	"Management menu")
 				icon       	"entity"
@@ -4636,7 +4640,7 @@
 				    location   	(3092, 768)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	661
+				    max_width  	664
 				    justify    	0
 				    label      	"List gozareshat")
 				icon       	"boundary"
@@ -4667,7 +4671,7 @@
 				    location   	(1938, 1111)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	479
+				    max_width  	483
 				    justify    	0
 				    label      	"Karmand")
 				icon       	"Actor"
@@ -4696,7 +4700,7 @@
 				    location   	(2831, 1424)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	438
+				    max_width  	441
 				    justify    	0
 				    label      	"Olaviat Gozaresh")
 				icon       	"control"
@@ -4726,7 +4730,7 @@
 				    location   	(3348, 2031)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	562
+				    max_width  	564
 				    justify    	0
 				    label      	"Data base")
 				icon       	"entity"
@@ -4798,10 +4802,10 @@
 				supplier   	@202
 				vertices   	(list Points
 				    (245, 446)
-				    (363, 266))
+				    (393, 216))
 				line_style 	0)
 			    (object MessView "" @214
-				location   	(267, 332)
+				location   	(282, 308)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -4814,7 +4818,7 @@
 				line_color 	3342489
 				label      	(object SegLabel @215
 				    Parent_View 	@214
-				    location   	(231, 308)
+				    location   	(246, 284)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -4838,8 +4842,8 @@
 				height     	45
 				orientation 	0
 				dir        	1
-				origin     	(234, 381)
-				terminus   	(300, 283))
+				origin     	(250, 357)
+				terminus   	(314, 259))
 			    (object LinkView "" @216
 				stereotype 	TRUE
 				line_color 	3342489
@@ -4847,11 +4851,11 @@
 				client     	@200
 				supplier   	@205
 				vertices   	(list Points
-				    (398, 668)
+				    (252, 566)
 				    (1570, 1481))
 				line_style 	0)
 			    (object MessView "" @217
-				location   	(1010, 1038)
+				location   	(937, 987)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -4864,7 +4868,7 @@
 				line_color 	3342489
 				label      	(object SegLabel @218
 				    Parent_View 	@217
-				    location   	(1035, 1002)
+				    location   	(962, 951)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -4888,8 +4892,8 @@
 				height     	45
 				orientation 	0
 				dir        	1
-				origin     	(961, 1004)
-				terminus   	(1059, 1072))
+				origin     	(888, 953)
+				terminus   	(986, 1021))
 			    (object LinkView "" @219
 				stereotype 	TRUE
 				line_color 	3342489
@@ -4897,11 +4901,11 @@
 				client     	@202
 				supplier   	@203
 				vertices   	(list Points
-				    (595, 80)
-				    (2022, 104))
+				    (595, 83)
+				    (2040, 161))
 				line_style 	0)
 			    (object MessView "" @220
-				location   	(1309, 48)
+				location   	(1319, 78)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -4914,7 +4918,7 @@
 				line_color 	3342489
 				label      	(object SegLabel @221
 				    Parent_View 	@220
-				    location   	(1310, 4)
+				    location   	(1321, 34)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -4938,10 +4942,10 @@
 				height     	45
 				orientation 	0
 				dir        	1
-				origin     	(1249, 47)
-				terminus   	(1369, 49))
+				origin     	(1259, 75)
+				terminus   	(1379, 81))
 			    (object MessView "" @222
-				location   	(1308, 137)
+				location   	(1316, 167)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -4954,7 +4958,7 @@
 				line_color 	3342489
 				label      	(object SegLabel @223
 				    Parent_View 	@222
-				    location   	(1308, 182)
+				    location   	(1315, 212)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -4978,8 +4982,8 @@
 				height     	45
 				orientation 	1
 				dir        	-1
-				origin     	(1367, 137)
-				terminus   	(1249, 137))
+				origin     	(1375, 169)
+				terminus   	(1257, 165))
 			    (object LinkView "" @224
 				stereotype 	TRUE
 				line_color 	3342489
@@ -4987,8 +4991,8 @@
 				client     	@203
 				supplier   	@200
 				vertices   	(list Points
-				    (2021, 122)
-				    (252, 513))
+				    (2038, 180)
+				    (252, 515))
 				line_style 	0)
 			    (object LinkView "" @225
 				stereotype 	TRUE
@@ -4997,8 +5001,8 @@
 				client     	@203
 				supplier   	@207
 				vertices   	(list Points
-				    (2055, 328)
-				    (1951, 869))
+				    (2063, 388)
+				    (1954, 869))
 				line_style 	0)
 			    (object LinkView "" @226
 				stereotype 	TRUE
@@ -5007,11 +5011,11 @@
 				client     	@204
 				supplier   	@203
 				vertices   	(list Points
-				    (534, 1325)
-				    (1950, 224))
+				    (541, 1325)
+				    (1968, 278))
 				line_style 	0)
 			    (object MessView "" @227
-				location   	(1270, 810)
+				location   	(1282, 837)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -5024,7 +5028,7 @@
 				line_color 	3342489
 				label      	(object SegLabel @228
 				    Parent_View 	@227
-				    location   	(1298, 845)
+				    location   	(1309, 873)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -5048,8 +5052,8 @@
 				height     	45
 				orientation 	1
 				dir        	-1
-				origin     	(1316, 773)
-				terminus   	(1224, 847))
+				origin     	(1329, 802)
+				terminus   	(1235, 872))
 			    (object LinkView "" @229
 				stereotype 	TRUE
 				line_color 	3342489
@@ -5060,47 +5064,7 @@
 				    (1721, 1548)
 				    (3272, 1855))
 				line_style 	0)
-			    (object MessView "" @230
-				location   	(2506, 1659)
-				font       	(object Font
-				    size       	12
-				    face       	"Tahoma"
-				    bold       	FALSE
-				    italics    	FALSE
-				    underline  	FALSE
-				    strike     	FALSE
-				    color      	0
-				    default_color 	TRUE)
-				line_color 	3342489
-				label      	(object SegLabel @231
-				    Parent_View 	@230
-				    location   	(2515, 1616)
-				    font       	(object Font
-					size       	12
-					face       	"Tahoma"
-					bold       	FALSE
-					italics    	FALSE
-					underline  	FALSE
-					strike     	FALSE
-					color      	0
-					default_color 	TRUE)
-				    quidu      	"4BB79EA9037C"
-				    anchor_loc 	1
-				    nlines     	1
-				    max_width  	450
-				    justify    	0
-				    label      	"retrieving_data( )"
-				    pctDist    	0.500000
-				    height     	45
-				    orientation 	0)
-				object_arc 	@229
-				pctDist    	0.500000
-				height     	45
-				orientation 	0
-				dir        	1
-				origin     	(2447, 1647)
-				terminus   	(2565, 1671))
-			    (object LinkView "" @232
+			    (object LinkView "" @230
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"4BB7980303B7"
@@ -5110,7 +5074,7 @@
 				    (2979, 606)
 				    (252, 528))
 				line_style 	0)
-			    (object MessView "" @233
+			    (object MessView "" @231
 				location   	(1616, 612)
 				font       	(object Font
 				    size       	12
@@ -5122,8 +5086,8 @@
 				    color      	0
 				    default_color 	TRUE)
 				line_color 	3342489
-				label      	(object SegLabel @234
-				    Parent_View 	@233
+				label      	(object SegLabel @232
+				    Parent_View 	@231
 				    location   	(1616, 657)
 				    font       	(object Font
 					size       	12
@@ -5143,14 +5107,14 @@
 				    pctDist    	0.500000
 				    height     	45
 				    orientation 	0)
-				object_arc 	@232
+				object_arc 	@230
 				pctDist    	0.500000
 				height     	45
 				orientation 	0
 				dir        	1
 				origin     	(1675, 613)
 				terminus   	(1557, 611))
-			    (object MessView "" @235
+			    (object MessView "" @233
 				location   	(1617, 523)
 				font       	(object Font
 				    size       	12
@@ -5162,8 +5126,8 @@
 				    color      	0
 				    default_color 	TRUE)
 				line_color 	3342489
-				label      	(object SegLabel @236
-				    Parent_View 	@235
+				label      	(object SegLabel @234
+				    Parent_View 	@233
 				    location   	(1618, 423)
 				    font       	(object Font
 					size       	12
@@ -5177,14 +5141,14 @@
 				    quidu      	"4BB7980303BA"
 				    anchor_loc 	1
 				    nlines     	1
-				    max_width  	453
+				    max_width  	478
 				    justify    	0
 				    label      	"select_gozaresh( )"
 				    pctDist    	0.500000
 				    height     	45
 				    orientation 	0)
-				label      	(object SegLabel @237
-				    Parent_View 	@235
+				label      	(object SegLabel @235
+				    Parent_View 	@233
 				    location   	(1618, 479)
 				    font       	(object Font
 					size       	12
@@ -5204,35 +5168,35 @@
 				    pctDist    	0.500000
 				    height     	45
 				    orientation 	0)
-				object_arc 	@232
+				object_arc 	@230
 				pctDist    	0.500000
 				height     	45
 				orientation 	1
 				dir        	-1
 				origin     	(1557, 521)
 				terminus   	(1677, 525))
-			    (object LinkView "" @238
+			    (object LinkView "" @236
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"4BB7980303B5"
 				client     	@206
 				supplier   	@203
 				vertices   	(list Points
-				    (2979, 553)
-				    (2176, 146))
+				    (2979, 557)
+				    (2194, 201))
 				line_style 	0)
-			    (object LinkView "" @239
+			    (object LinkView "" @237
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"4BB79C0401B6"
 				client     	@206
 				supplier   	@208
 				vertices   	(list Points
-				    (3004, 827)
+				    (3014, 797)
 				    (2860, 1182))
 				line_style 	0)
-			    (object MessView "" @240
-				location   	(2974, 1021)
+			    (object MessView "" @238
+				location   	(2979, 1007)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -5243,9 +5207,9 @@
 				    color      	0
 				    default_color 	TRUE)
 				line_color 	3342489
-				label      	(object SegLabel @241
-				    Parent_View 	@240
-				    location   	(3016, 1037)
+				label      	(object SegLabel @239
+				    Parent_View 	@238
+				    location   	(3021, 1023)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -5264,25 +5228,25 @@
 				    pctDist    	0.500000
 				    height     	45
 				    orientation 	0)
-				object_arc 	@239
+				object_arc 	@237
 				pctDist    	0.500000
 				height     	45
 				orientation 	0
 				dir        	1
-				origin     	(2996, 965)
-				terminus   	(2952, 1077))
-			    (object LinkView "" @242
+				origin     	(3000, 951)
+				terminus   	(2958, 1063))
+			    (object LinkView "" @240
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"4BB79EE3033D"
 				client     	@206
 				supplier   	@209
 				vertices   	(list Points
-				    (3134, 827)
+				    (3127, 797)
 				    (3329, 1799))
 				line_style 	0)
-			    (object MessView "" @243
-				location   	(3276, 1305)
+			    (object MessView "" @241
+				location   	(3272, 1290)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -5293,9 +5257,9 @@
 				    color      	0
 				    default_color 	TRUE)
 				line_color 	3342489
-				label      	(object SegLabel @244
-				    Parent_View 	@243
-				    location   	(3320, 1297)
+				label      	(object SegLabel @242
+				    Parent_View 	@241
+				    location   	(3316, 1282)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -5314,13 +5278,53 @@
 				    pctDist    	0.500000
 				    height     	45
 				    orientation 	0)
-				object_arc 	@242
+				object_arc 	@240
 				pctDist    	0.500000
 				height     	45
 				orientation 	0
 				dir        	1
-				origin     	(3264, 1246)
-				terminus   	(3288, 1364))
+				origin     	(3260, 1231)
+				terminus   	(3284, 1349))
+			    (object MessView "" @243
+				location   	(3185, 1307)
+				font       	(object Font
+				    size       	12
+				    face       	"Tahoma"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				line_color 	3342489
+				label      	(object SegLabel @244
+				    Parent_View 	@243
+				    location   	(3142, 1315)
+				    font       	(object Font
+					size       	12
+					face       	"Tahoma"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    quidu      	"4BB798F80177"
+				    anchor_loc 	1
+				    nlines     	1
+				    max_width  	444
+				    justify    	0
+				    label      	"retrieving_data( )"
+				    pctDist    	0.500000
+				    height     	45
+				    orientation 	0)
+				object_arc 	@240
+				pctDist    	0.500000
+				height     	45
+				orientation 	1
+				dir        	-1
+				origin     	(3196, 1365)
+				terminus   	(3174, 1249))
 			    (object LinkView "" @245
 				stereotype 	TRUE
 				line_color 	3342489
@@ -5328,7 +5332,7 @@
 				client     	@207
 				supplier   	@205
 				vertices   	(list Points
-				    (1845, 1140)
+				    (1851, 1129)
 				    (1681, 1459))
 				line_style 	0)
 			    (object LinkView "" @246
@@ -5359,10 +5363,10 @@
 				supplier   	@207
 				vertices   	(list Points
 				    (2752, 1233)
-				    (2160, 1026))
+				    (1995, 968))
 				line_style 	0)
 			    (object MessView "" @249
-				location   	(2442, 1171)
+				location   	(2360, 1143)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -5375,7 +5379,7 @@
 				line_color 	3342489
 				label      	(object SegLabel @250
 				    Parent_View 	@249
-				    location   	(2429, 1214)
+				    location   	(2347, 1186)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -5399,8 +5403,8 @@
 				height     	45
 				orientation 	0
 				dir        	1
-				origin     	(2498, 1190)
-				terminus   	(2386, 1152))))))
+				origin     	(2416, 1162)
+				terminus   	(2304, 1124))))))
 	    (object UseCase "Cancel Kardan kharid"
 		quid       	"4BB79969038A"
 		visible_modules 	(list dependency_list
@@ -6743,30 +6747,13 @@
 			    location   	(2145, 1501)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	471
+			    max_width  	483
 			    justify    	0
 			    label      	"Modiriat")
 			icon       	"Actor"
 			icon_style 	"Icon"
 			line_color 	3342489
 			quidu      	"4BB7978C037A"
-			compartment 	(object Compartment
-			    Parent_View 	@304
-			    location   	(2143, 1546)
-			    font       	(object Font
-				size       	12
-				face       	"Tahoma"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    anchor     	2
-			    nlines     	3
-			    max_width  	2
-			    justify    	0)
 			annotation 	8
 			autoResize 	TRUE)
 		    (object UseCaseView "Use Case View::Reserve kardan" @305
@@ -6860,7 +6847,7 @@
 			    location   	(330, 484)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	471
+			    max_width  	483
 			    justify    	0
 			    label      	"Moshtari")
 			icon       	"Actor"
@@ -6952,30 +6939,13 @@
 			    location   	(2118, 517)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	471
+			    max_width  	483
 			    justify    	0
 			    label      	"Karmand")
 			icon       	"Actor"
 			icon_style 	"Icon"
 			line_color 	3342489
 			quidu      	"4BB7977E0290"
-			compartment 	(object Compartment
-			    Parent_View 	@314
-			    location   	(2116, 562)
-			    font       	(object Font
-				size       	12
-				face       	"Tahoma"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    anchor     	2
-			    nlines     	2
-			    max_width  	2
-			    justify    	0)
 			annotation 	8
 			autoResize 	TRUE)
 		    (object DependencyView "" @315
@@ -7071,7 +7041,7 @@
 			    location   	(918, 1255)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	471
+			    max_width  	483
 			    justify    	0
 			    label      	"Hotel")
 			icon       	"Actor"
@@ -7118,7 +7088,7 @@
 			    location   	(2103, 1588)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	471
+			    max_width  	483
 			    justify    	0
 			    label      	"Modiriat")
 			icon       	"Actor"
@@ -7127,7 +7097,7 @@
 			quidu      	"4BB7978C037A"
 			compartment 	(object Compartment
 			    Parent_View 	@323
-			    location   	(1886, 1633)
+			    location   	(1877, 1633)
 			    font       	(object Font
 				size       	12
 				face       	"Tahoma"
@@ -7163,7 +7133,7 @@
 			    location   	(756, 1372)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	471
+			    max_width  	483
 			    justify    	0
 			    label      	"Hotel")
 			icon       	"Actor"
@@ -7313,7 +7283,7 @@
 			    location   	(372, 592)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	471
+			    max_width  	483
 			    justify    	0
 			    label      	"Moshtari")
 			icon       	"Actor"
@@ -7408,7 +7378,7 @@
 			    location   	(2076, 247)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	471
+			    max_width  	483
 			    justify    	0
 			    label      	"TourLeader")
 			icon       	"Actor"
@@ -7436,7 +7406,7 @@
 			    location   	(2133, 712)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	471
+			    max_width  	483
 			    justify    	0
 			    label      	"Karmand")
 			icon       	"Actor"
@@ -7445,7 +7415,7 @@
 			quidu      	"4BB7977E0290"
 			compartment 	(object Compartment
 			    Parent_View 	@338
-			    location   	(1949, 757)
+			    location   	(1941, 757)
 			    font       	(object Font
 				size       	12
 				face       	"Tahoma"
@@ -7786,7 +7756,7 @@
 			    location   	(243, 556)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	471
+			    max_width  	483
 			    justify    	0
 			    label      	"Moshtari")
 			icon       	"Actor"
@@ -7967,7 +7937,7 @@
 			    location   	(2391, 634)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	471
+			    max_width  	483
 			    justify    	0
 			    label      	"Karmand")
 			icon       	"Actor"
@@ -7976,7 +7946,7 @@
 			quidu      	"4BB7977E0290"
 			compartment 	(object Compartment
 			    Parent_View 	@368
-			    location   	(2385, 679)
+			    location   	(2199, 679)
 			    font       	(object Font
 				size       	12
 				face       	"Tahoma"
@@ -7989,7 +7959,7 @@
 			    icon_style 	"Icon"
 			    anchor     	2
 			    nlines     	2
-			    max_width  	9
+			    max_width  	366
 			    justify    	0)
 			annotation 	8
 			autoResize 	TRUE)
@@ -8066,30 +8036,13 @@
 			    location   	(2250, 1816)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	471
+			    max_width  	483
 			    justify    	0
 			    label      	"Modiriat")
 			icon       	"Actor"
 			icon_style 	"Icon"
 			line_color 	3342489
 			quidu      	"4BB7978C037A"
-			compartment 	(object Compartment
-			    Parent_View 	@373
-			    location   	(2244, 1861)
-			    font       	(object Font
-				size       	12
-				face       	"Tahoma"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    anchor     	2
-			    nlines     	3
-			    max_width  	9
-			    justify    	0)
 			annotation 	8
 			autoResize 	TRUE)
 		    (object DependencyView "" @374
@@ -8099,7 +8052,7 @@
 			client     	@368
 			supplier   	@372
 			vertices   	(list Points
-			    (2353, 663)
+			    (2330, 796)
 			    (2298, 967))
 			line_style 	0)
 		    (object DependencyView "" @375
@@ -8131,7 +8084,7 @@
 			    location   	(2814, 1081)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	471
+			    max_width  	483
 			    justify    	0
 			    label      	"Hotel")
 			icon       	"Actor"
@@ -8404,7 +8357,7 @@
 			client     	@383
 			supplier   	@392
 			vertices   	(list Points
-			    (1537, 1400)
+			    (1326, 1477)
 			    (1083, 1565))
 			line_style 	0)
 		    (object DependencyView "" @394
