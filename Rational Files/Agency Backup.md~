@@ -1653,7 +1653,7 @@
 				    location   	(96, 544)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	479
+				    max_width  	483
 				    justify    	0
 				    label      	"Moshtari")
 				icon       	"Actor"
@@ -1682,7 +1682,7 @@
 				    location   	(1520, 465)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	661
+				    max_width  	664
 				    justify    	0
 				    label      	"Main page")
 				icon       	"boundary"
@@ -1713,7 +1713,7 @@
 				    location   	(2000, 237)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	664
+				    max_width  	667
 				    justify    	0
 				    label      	"Private page")
 				icon       	"boundary"
@@ -1744,7 +1744,7 @@
 				    location   	(2438, 1259)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	444
+				    max_width  	447
 				    justify    	0
 				    label      	"Verification")
 				icon       	"control"
@@ -1774,7 +1774,7 @@
 				    location   	(1196, 696)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	667
+				    max_width  	671
 				    justify    	0
 				    label      	"log_in")
 				icon       	"boundary"
@@ -1805,7 +1805,7 @@
 				    location   	(1064, 1542)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	671
+				    max_width  	675
 				    justify    	0
 				    label      	"List tour")
 				icon       	"boundary"
@@ -1836,7 +1836,7 @@
 				    location   	(1182, 1185)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	518
+				    max_width  	520
 				    justify    	0
 				    label      	"Tour selection menu")
 				icon       	"entity"
@@ -1866,7 +1866,7 @@
 				    location   	(996, 1878)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	520
+				    max_width  	523
 				    justify    	0
 				    label      	"Reserve confirmation")
 				icon       	"entity"
@@ -3938,7 +3938,7 @@
 				    location   	(3585, 255)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	423
+				    max_width  	459
 				    justify    	0
 				    label      	"Data base")
 				icon       	"View"
@@ -4593,7 +4593,7 @@
 				    location   	(195, 688)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	483
+				    max_width  	487
 				    justify    	0
 				    label      	"Modiriat")
 				icon       	"Actor"
@@ -4622,7 +4622,7 @@
 				    location   	(164, 1233)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	657
+				    max_width  	661
 				    justify    	0
 				    label      	"Main page")
 				icon       	"boundary"
@@ -4653,7 +4653,7 @@
 				    location   	(482, 237)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	661
+				    max_width  	664
 				    justify    	0
 				    label      	"log_in")
 				icon       	"boundary"
@@ -4684,7 +4684,7 @@
 				    location   	(2117, 329)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	441
+				    max_width  	444
 				    justify    	0
 				    label      	"Verification")
 				icon       	"control"
@@ -4714,7 +4714,7 @@
 				    location   	(443, 1557)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	664
+				    max_width  	667
 				    justify    	0
 				    label      	"Private page")
 				icon       	"boundary"
@@ -4745,7 +4745,7 @@
 				    location   	(1647, 1692)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	564
+				    max_width  	567
 				    justify    	0
 				    label      	"Management menu")
 				icon       	"entity"
@@ -4775,7 +4775,7 @@
 				    location   	(3092, 768)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	667
+				    max_width  	671
 				    justify    	0
 				    label      	"List gozareshat")
 				icon       	"boundary"
@@ -4806,7 +4806,7 @@
 				    location   	(1938, 1111)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	487
+				    max_width  	490
 				    justify    	0
 				    label      	"Karmand")
 				icon       	"Actor"
@@ -4835,7 +4835,7 @@
 				    location   	(2831, 1424)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	444
+				    max_width  	447
 				    justify    	0
 				    label      	"Olaviat Gozaresh")
 				icon       	"control"
@@ -4865,7 +4865,7 @@
 				    location   	(3347, 2031)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	427
+				    max_width  	431
 				    justify    	0
 				    label      	"Data base")
 				icon       	"View"
@@ -5406,6 +5406,7 @@
 					color      	0
 					default_color 	TRUE)
 				    quidu      	"4BB79EE3033E"
+				    anchor_loc 	1
 				    nlines     	1
 				    max_width  	450
 				    justify    	0
@@ -5445,6 +5446,7 @@
 					color      	0
 					default_color 	TRUE)
 				    quidu      	"4BB798F80177"
+				    anchor_loc 	1
 				    nlines     	1
 				    max_width  	450
 				    justify    	0
@@ -6881,7 +6883,7 @@
 			    location   	(2145, 1501)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	487
+			    max_width  	490
 			    justify    	0
 			    label      	"Modiriat")
 			icon       	"Actor"
@@ -6981,7 +6983,7 @@
 			    location   	(330, 484)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	487
+			    max_width  	490
 			    justify    	0
 			    label      	"Moshtari")
 			icon       	"Actor"
@@ -7073,7 +7075,7 @@
 			    location   	(2118, 517)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	487
+			    max_width  	490
 			    justify    	0
 			    label      	"Karmand")
 			icon       	"Actor"
@@ -7175,7 +7177,7 @@
 			    location   	(918, 1255)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	487
+			    max_width  	490
 			    justify    	0
 			    label      	"Hotel")
 			icon       	"Actor"
@@ -7222,7 +7224,7 @@
 			    location   	(1923, 1906)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	487
+			    max_width  	490
 			    justify    	0
 			    label      	"Modiriat")
 			icon       	"Actor"
@@ -7250,7 +7252,7 @@
 			    location   	(756, 1372)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	487
+			    max_width  	490
 			    justify    	0
 			    label      	"Hotel")
 			icon       	"Actor"
@@ -7313,7 +7315,7 @@
 			supplier   	@326
 			vertices   	(list Points
 			    (813, 1171)
-			    (1210, 905))
+			    (1108, 974))
 			line_style 	0)
 		    (object DependencyView "" @328
 			stereotype 	TRUE
@@ -7322,7 +7324,7 @@
 			client     	@325
 			supplier   	@326
 			vertices   	(list Points
-			    (1021, 572)
+			    (1095, 623)
 			    (1276, 748))
 			line_style 	0)
 		    (object UseCaseView "Use Case View::Reserve bilit" @329
@@ -7400,7 +7402,7 @@
 			    location   	(372, 592)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	487
+			    max_width  	490
 			    justify    	0
 			    label      	"Moshtari")
 			icon       	"Actor"
@@ -7427,7 +7429,7 @@
 			supplier   	@331
 			vertices   	(list Points
 			    (956, 398)
-			    (1237, 254))
+			    (1056, 349))
 			line_style 	0)
 		    (object Label @335
 			location   	(834, 255)
@@ -7478,7 +7480,7 @@
 			    location   	(2076, 247)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	487
+			    max_width  	490
 			    justify    	0
 			    label      	"TourLeader")
 			icon       	"Actor"
@@ -7506,7 +7508,7 @@
 			    location   	(2844, 481)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	487
+			    max_width  	490
 			    justify    	0
 			    label      	"Karmand")
 			icon       	"Actor"
@@ -7616,7 +7618,7 @@
 				supplier   	@338
 				vertices   	(list Points
 				    (2330, 820)
-				    (2499, 657))
+				    (2785, 375))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$18" @346
 				Parent_View 	@343
@@ -7659,7 +7661,7 @@
 				supplier   	@342
 				vertices   	(list Points
 				    (2330, 820)
-				    (2161, 983))
+				    (2160, 983))
 				line_style 	0)))
 		    (object DependencyView "" @348
 			stereotype 	TRUE
@@ -7668,7 +7670,7 @@
 			client     	@338
 			supplier   	@342
 			vertices   	(list Points
-			    (2499, 657)
+			    (2785, 375)
 			    (2161, 983))
 			line_style 	0)
 		    (object DependencyView "" @349
@@ -7839,7 +7841,7 @@
 			    location   	(243, 556)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	487
+			    max_width  	490
 			    justify    	0
 			    label      	"Moshtari")
 			icon       	"Actor"
@@ -8003,7 +8005,7 @@
 			    location   	(2391, 634)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	487
+			    max_width  	490
 			    justify    	0
 			    label      	"Karmand")
 			icon       	"Actor"
@@ -8085,7 +8087,7 @@
 			    location   	(2250, 1816)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	487
+			    max_width  	490
 			    justify    	0
 			    label      	"Modiriat")
 			icon       	"Actor"
@@ -8133,7 +8135,7 @@
 			    location   	(2814, 1081)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	487
+			    max_width  	490
 			    justify    	0
 			    label      	"Hotel")
 			icon       	"Actor"
@@ -8667,30 +8669,13 @@
 			    location   	(1032, 460)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	490
+			    max_width  	362
 			    justify    	0
 			    label      	"Moshtari")
 			icon       	"Actor"
 			icon_style 	"Icon"
 			line_color 	3342489
 			quidu      	"4BB7976F037A"
-			compartment 	(object Compartment
-			    Parent_View 	@398
-			    location   	(784, 559)
-			    font       	(object Font
-				size       	10
-				face       	"Tahoma"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    anchor     	2
-			    nlines     	11
-			    max_width  	469
-			    justify    	0)
 			annotation 	8
 			autoResize 	TRUE)
 		    (object ClassView "Class" "Use Case View::Modiriat" @399
@@ -8712,30 +8697,13 @@
 			    location   	(413, 459)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	497
+			    max_width  	362
 			    justify    	0
 			    label      	"Modiriat")
 			icon       	"Actor"
 			icon_style 	"Icon"
 			line_color 	3342489
 			quidu      	"4BB7978C037A"
-			compartment 	(object Compartment
-			    Parent_View 	@399
-			    location   	(123, 558)
-			    font       	(object Font
-				size       	10
-				face       	"Tahoma"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    anchor     	2
-			    nlines     	9
-			    max_width  	550
-			    justify    	0)
 			annotation 	8
 			autoResize 	TRUE)
 		    (object ClassView "Class" "Use Case View::Karmand" @400
@@ -8757,30 +8725,13 @@
 			    location   	(1674, 454)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	561
+			    max_width  	362
 			    justify    	0
 			    label      	"Karmand")
 			icon       	"Actor"
 			icon_style 	"Icon"
 			line_color 	3342489
 			quidu      	"4BB7977E0290"
-			compartment 	(object Compartment
-			    Parent_View 	@400
-			    location   	(1384, 553)
-			    font       	(object Font
-				size       	10
-				face       	"Tahoma"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    anchor     	2
-			    nlines     	8
-			    max_width  	550
-			    justify    	0)
 			annotation 	8
 			autoResize 	TRUE)
 		    (object ClassView "Class" "Logical View::tour" @401
@@ -8811,24 +8762,6 @@
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"4BB79D7300AC"
-			compartment 	(object Compartment
-			    Parent_View 	@401
-			    location   	(2040, 473)
-			    font       	(object Font
-				size       	12
-				face       	"Arial"
-				charSet    	178
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    anchor     	2
-			    nlines     	18
-			    max_width  	766
-			    justify    	0)
 			width      	230
 			height     	154
 			annotation 	8
@@ -8860,23 +8793,6 @@
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"4BB79E9D0196"
-			compartment 	(object Compartment
-			    Parent_View 	@402
-			    location   	(795, 1746)
-			    font       	(object Font
-				size       	10
-				face       	"Tahoma"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    anchor     	2
-			    nlines     	18
-			    max_width  	550
-			    justify    	0)
 			width      	230
 			height     	154
 			annotation 	8
@@ -8908,23 +8824,6 @@
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"4BB79DE7032D"
-			compartment 	(object Compartment
-			    Parent_View 	@403
-			    location   	(116, 1773)
-			    font       	(object Font
-				size       	10
-				face       	"Tahoma"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    anchor     	2
-			    nlines     	9
-			    max_width  	506
-			    justify    	0)
 			width      	154
 			height     	154
 			annotation 	8
@@ -8948,30 +8847,13 @@
 			    location   	(1662, 1717)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	561
+			    max_width  	362
 			    justify    	0
 			    label      	"Hotel")
 			icon       	"Actor"
 			icon_style 	"Icon"
 			line_color 	3342489
 			quidu      	"4BB79A220261"
-			compartment 	(object Compartment
-			    Parent_View 	@404
-			    location   	(1413, 1816)
-			    font       	(object Font
-				size       	10
-				face       	"Tahoma"
-				bold       	FALSE
-				italics    	FALSE
-				underline  	FALSE
-				strike     	FALSE
-				color      	0
-				default_color 	TRUE)
-			    icon_style 	"Icon"
-			    anchor     	2
-			    nlines     	6
-			    max_width  	475
-			    justify    	0)
 			annotation 	8
 			autoResize 	TRUE)))))
     root_subsystem 	(object SubSystem "Component View"
@@ -9062,7 +8944,21 @@
 			supplier   	"Component View::Resid kharid movafagh"
 			quidu      	"4BB9EE9F0000"
 			supplier_is_spec 	TRUE))
-		language   	"ANSI C++"))
+		language   	"ANSI C++")
+	    (object module "Modir Menu" "NotAModuleType" "NotAModulePart"
+		quid       	"4BB9EB240148"
+		stereotype 	""
+		language   	"ANSI C++")
+	    (object module "modiriat_menu" "NotAModuleType" "NotAModulePart"
+		quid       	"4BB9EB4102FD"
+		stereotype 	""
+		visible_modules 	(list dependency_list
+		    (object Module_Visibility_Relationship
+			quid       	"4BB9EC1A02FD"
+			supplier   	"Component View::Modir Menu"
+			quidu      	"4BB9EB240148"
+			supplier_is_spec 	TRUE))
+		language   	""))
 	physical_presentations 	(list unit_reference_list
 	    (object Module_Diagram "Main"
 		quid       	"4BB7973C008C"
@@ -9223,7 +9119,7 @@
 			supplier   	@408
 			vertices   	(list Points
 			    (1440, 375)
-			    (1428, 712))
+			    (1428, 716))
 			line_style 	0)
 		    (object ModView "Component View::tour zarfiyat" "NotAModuleType" "NotAModulePart" @412
 			location   	(2901, 279)
@@ -9417,6 +9313,81 @@
 			    (2887, 846)
 			    (2875, 1204)
 			    (2682, 1201))
+			line_style 	0)))
+	    (object Module_Diagram "Adding tour Comp"
+		quid       	"4BB9EB0D0196"
+		title      	"Adding tour Comp"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	0
+		items      	(list diagram_item_list
+		    (object ModView "Component View::Modir Menu" "NotAModuleType" "NotAModulePart" @422
+			location   	(372, 270)
+			font       	(object Font
+			    size       	12
+			    face       	"Tahoma"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@422
+			    location   	(313, 245)
+			    fill_color 	13434879
+			    anchor_loc 	3
+			    nlines     	2
+			    max_width  	221
+			    justify    	1
+			    label      	"Modir Menu")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"4BB9EB240148"
+			width      	398
+			autoResize 	TRUE
+			width      	398
+			height     	162)
+		    (object ModView "Component View::modiriat_menu" "NotAModuleType" "NotAModulePart" @423
+			location   	(378, 663)
+			font       	(object Font
+			    size       	12
+			    face       	"Tahoma"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@423
+			    location   	(320, 638)
+			    fill_color 	13434879
+			    anchor_loc 	3
+			    nlines     	2
+			    max_width  	218
+			    justify    	1
+			    label      	"modiriat_menu")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"4BB9EB4102FD"
+			width      	392
+			autoResize 	TRUE
+			width      	392
+			height     	162)
+		    (object ModVisView "" @424
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"4BB9EC1A02FD"
+			client     	@423
+			supplier   	@422
+			vertices   	(list Points
+			    (372, 577)
+			    (372, 348))
 			line_style 	0))))
 	category   	"Logical View"
 	quidu      	"4BB7973B0233")
