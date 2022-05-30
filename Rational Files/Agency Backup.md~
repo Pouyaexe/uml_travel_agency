@@ -8957,7 +8957,81 @@
 			quid       	"4BB9EC1A02FD"
 			supplier   	"Component View::Modir Menu"
 			quidu      	"4BB9EB240148"
+			supplier_is_spec 	TRUE)
+		    (object Module_Visibility_Relationship
+			quid       	"4BB9EDBC0129"
+			supplier   	"Component View::Add tour"
+			quidu      	"4BB9ED040271"
+			supplier_is_spec 	TRUE)
+		    (object Module_Visibility_Relationship
+			quid       	"4BB9EDC001C5"
+			supplier   	"Component View::Modify tour"
+			quidu      	"4BB9ED0D000F"
+			supplier_is_spec 	TRUE)
+		    (object Module_Visibility_Relationship
+			quid       	"4BB9EDC40203"
+			supplier   	"Component View::remove tour"
+			quidu      	"4BB9ED1E0271"
 			supplier_is_spec 	TRUE))
+		language   	"")
+	    (object module "online tour list" "NotAModuleType" "NotAModulePart"
+		quid       	"4BB9ECAD0177"
+		stereotype 	""
+		visible_modules 	(list dependency_list
+		    (object Module_Visibility_Relationship
+			quid       	"4BB9ECE40148"
+			supplier   	"Component View::modiriat_menu"
+			quidu      	"4BB9EB4102FD"
+			supplier_is_spec 	TRUE)
+		    (object Module_Visibility_Relationship
+			quid       	"4BB9ED93035B"
+			supplier   	"Component View::Data base"
+			quidu      	"4BB9ED890203"
+			supplier_is_spec 	TRUE))
+		language   	"")
+	    (object module "karmand menu" "NotAModuleType" "NotAModulePart"
+		quid       	"4BB9ECCD00AC"
+		stereotype 	""
+		visible_modules 	(list dependency_list
+		    (object Module_Visibility_Relationship
+			quid       	"4BB9ECDF03D8"
+			supplier   	"Component View::online tour list"
+			quidu      	"4BB9ECAD0177"
+			supplier_is_spec 	TRUE))
+		language   	"")
+	    (object module "Add tour" "NotAModuleType" "NotAModulePart"
+		quid       	"4BB9ED040271"
+		stereotype 	""
+		visible_modules 	(list dependency_list
+		    (object Module_Visibility_Relationship
+			quid       	"4BB9ED3001B5"
+			supplier   	"Component View::online tour list"
+			quidu      	"4BB9ECAD0177"
+			supplier_is_spec 	TRUE))
+		language   	"")
+	    (object module "Modify tour" "NotAModuleType" "NotAModulePart"
+		quid       	"4BB9ED0D000F"
+		stereotype 	""
+		visible_modules 	(list dependency_list
+		    (object Module_Visibility_Relationship
+			quid       	"4BB9ED330280"
+			supplier   	"Component View::online tour list"
+			quidu      	"4BB9ECAD0177"
+			supplier_is_spec 	TRUE))
+		language   	"")
+	    (object module "remove tour" "NotAModuleType" "NotAModulePart"
+		quid       	"4BB9ED1E0271"
+		stereotype 	""
+		visible_modules 	(list dependency_list
+		    (object Module_Visibility_Relationship
+			quid       	"4BB9ED37034B"
+			supplier   	"Component View::online tour list"
+			quidu      	"4BB9ECAD0177"
+			supplier_is_spec 	TRUE))
+		language   	"")
+	    (object module "Data base" "NotAModuleType" "NotAModulePart"
+		quid       	"4BB9ED890203"
+		stereotype 	""
 		language   	""))
 	physical_presentations 	(list unit_reference_list
 	    (object Module_Diagram "Main"
@@ -8975,7 +9049,7 @@
 		zoom       	100
 		max_height 	28350
 		max_width  	21600
-		origin_x   	0
+		origin_x   	1676
 		origin_y   	0
 		items      	(list diagram_item_list
 		    (object ModView "Component View::Moshtari Menu" "NotAModuleType" "NotAModulePart" @405
@@ -9321,10 +9395,10 @@
 		max_height 	28350
 		max_width  	21600
 		origin_x   	0
-		origin_y   	0
+		origin_y   	488
 		items      	(list diagram_item_list
 		    (object ModView "Component View::Modir Menu" "NotAModuleType" "NotAModulePart" @422
-			location   	(372, 270)
+			location   	(1041, 231)
 			font       	(object Font
 			    size       	12
 			    face       	"Tahoma"
@@ -9336,7 +9410,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@422
-			    location   	(313, 245)
+			    location   	(982, 206)
 			    fill_color 	13434879
 			    anchor_loc 	3
 			    nlines     	2
@@ -9352,7 +9426,7 @@
 			width      	398
 			height     	162)
 		    (object ModView "Component View::modiriat_menu" "NotAModuleType" "NotAModulePart" @423
-			location   	(378, 663)
+			location   	(1071, 546)
 			font       	(object Font
 			    size       	12
 			    face       	"Tahoma"
@@ -9364,7 +9438,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@423
-			    location   	(320, 638)
+			    location   	(1013, 521)
 			    fill_color 	13434879
 			    anchor_loc 	3
 			    nlines     	2
@@ -9386,8 +9460,266 @@
 			client     	@423
 			supplier   	@422
 			vertices   	(list Points
-			    (372, 577)
-			    (372, 348))
+			    (1060, 460)
+			    (1046, 309))
+			line_style 	0)
+		    (object ModView "Component View::online tour list" "NotAModuleType" "NotAModulePart" @425
+			location   	(1770, 816)
+			font       	(object Font
+			    size       	12
+			    face       	"Tahoma"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@425
+			    location   	(1712, 791)
+			    fill_color 	13434879
+			    anchor_loc 	3
+			    nlines     	2
+			    max_width  	218
+			    justify    	1
+			    label      	"online tour list")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"4BB9ECAD0177"
+			width      	392
+			autoResize 	TRUE
+			width      	392
+			height     	162)
+		    (object ModView "Component View::karmand menu" "NotAModuleType" "NotAModulePart" @426
+			location   	(1758, 255)
+			font       	(object Font
+			    size       	12
+			    face       	"Tahoma"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@426
+			    location   	(1700, 230)
+			    fill_color 	13434879
+			    anchor_loc 	3
+			    nlines     	2
+			    max_width  	218
+			    justify    	1
+			    label      	"karmand menu")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"4BB9ECCD00AC"
+			width      	392
+			autoResize 	TRUE
+			width      	392
+			height     	162)
+		    (object ModVisView "" @427
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"4BB9ECDF03D8"
+			client     	@426
+			supplier   	@425
+			vertices   	(list Points
+			    (1758, 333)
+			    (1764, 730))
+			line_style 	0)
+		    (object ModVisView "" @428
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"4BB9ECE40148"
+			client     	@425
+			supplier   	@423
+			vertices   	(list Points
+			    (1577, 739)
+			    (1260, 619))
+			line_style 	0)
+		    (object ModView "Component View::Add tour" "NotAModuleType" "NotAModulePart" @429
+			location   	(414, 915)
+			font       	(object Font
+			    size       	12
+			    face       	"Tahoma"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@429
+			    location   	(355, 890)
+			    fill_color 	13434879
+			    anchor_loc 	3
+			    nlines     	2
+			    max_width  	221
+			    justify    	1
+			    label      	"Add tour")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"4BB9ED040271"
+			width      	398
+			autoResize 	TRUE
+			width      	398
+			height     	162)
+		    (object ModView "Component View::Modify tour" "NotAModuleType" "NotAModulePart" @430
+			location   	(384, 1143)
+			font       	(object Font
+			    size       	12
+			    face       	"Tahoma"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@430
+			    location   	(326, 1118)
+			    fill_color 	13434879
+			    anchor_loc 	3
+			    nlines     	2
+			    max_width  	218
+			    justify    	1
+			    label      	"Modify tour")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"4BB9ED0D000F"
+			width      	392
+			autoResize 	TRUE
+			width      	392
+			height     	162)
+		    (object ModView "Component View::remove tour" "NotAModuleType" "NotAModulePart" @431
+			location   	(420, 1350)
+			font       	(object Font
+			    size       	12
+			    face       	"Tahoma"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@431
+			    location   	(362, 1325)
+			    fill_color 	13434879
+			    anchor_loc 	3
+			    nlines     	2
+			    max_width  	218
+			    justify    	1
+			    label      	"remove tour")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"4BB9ED1E0271"
+			width      	392
+			autoResize 	TRUE
+			width      	392
+			height     	162)
+		    (object ModVisView "" @432
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"4BB9ED3001B5"
+			client     	@429
+			supplier   	@425
+			vertices   	(list Points
+			    (606, 897)
+			    (1577, 827))
+			line_style 	0)
+		    (object ModVisView "" @433
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"4BB9ED330280"
+			client     	@430
+			supplier   	@425
+			vertices   	(list Points
+			    (573, 1095)
+			    (1579, 857))
+			line_style 	0)
+		    (object ModVisView "" @434
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"4BB9ED37034B"
+			client     	@431
+			supplier   	@425
+			vertices   	(list Points
+			    (609, 1273)
+			    (1577, 888))
+			line_style 	0)
+		    (object ModView "Component View::Data base" "NotAModuleType" "NotAModulePart" @435
+			location   	(1770, 1194)
+			font       	(object Font
+			    size       	12
+			    face       	"Tahoma"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@435
+			    location   	(1712, 1169)
+			    fill_color 	13434879
+			    anchor_loc 	3
+			    nlines     	2
+			    max_width  	218
+			    justify    	1
+			    label      	"Data base")
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"4BB9ED890203"
+			width      	392
+			autoResize 	TRUE
+			width      	392
+			height     	162)
+		    (object ModVisView "" @436
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"4BB9ED93035B"
+			client     	@425
+			supplier   	@435
+			vertices   	(list Points
+			    (1770, 894)
+			    (1770, 1112))
+			line_style 	0)
+		    (object ModVisView "" @437
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"4BB9EDBC0129"
+			client     	@423
+			supplier   	@429
+			vertices   	(list Points
+			    (926, 624)
+			    (549, 834))
+			line_style 	0)
+		    (object ModVisView "" @438
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"4BB9EDC001C5"
+			client     	@423
+			supplier   	@430
+			vertices   	(list Points
+			    (979, 624)
+			    (479, 1057))
+			line_style 	0)
+		    (object ModVisView "" @439
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"4BB9EDC40203"
+			client     	@423
+			supplier   	@431
+			vertices   	(list Points
+			    (1006, 624)
+			    (488, 1264))
 			line_style 	0))))
 	category   	"Logical View"
 	quidu      	"4BB7973B0233")

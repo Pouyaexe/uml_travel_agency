@@ -192,7 +192,7 @@
 			exportControl 	"Public")
 		    (object ClassAttribute "Shomare_personely"
 			quid       	"4BB79CAC02B0"
-			type       	"Double"
+			type       	"Integer"
 			exportControl 	"Public")
 		    (object ClassAttribute "Shomare_Melli"
 			quid       	"4BB79CAC02CF"
@@ -429,7 +429,7 @@
 			uid        	0)))
 	    (object Class "Data_base"
 		quid       	"4BB79DE7032D"
-		stereotype 	"View"
+		stereotype 	"Table"
 		exportControl 	"Implementation"
 		operations 	(list Operations
 		    (object Operation "retrieving_data"
@@ -733,11 +733,11 @@
 			mechanism_ref 	@1
 			quid       	"4BB7980801F4"
 			title      	"Sequence Resrve Tour"
-			zoom       	100
+			zoom       	95
 			max_height 	28350
 			max_width  	21600
-			origin_x   	0
-			origin_y   	350
+			origin_x   	1184
+			origin_y   	349
 			items      	(list diagram_item_list
 			    (object InterObjView "Moshtari" @2
 				location   	(258, 234)
@@ -1653,7 +1653,7 @@
 				    location   	(96, 544)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	483
+				    max_width  	487
 				    justify    	0
 				    label      	"Moshtari")
 				icon       	"Actor"
@@ -1682,7 +1682,7 @@
 				    location   	(1520, 465)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	664
+				    max_width  	667
 				    justify    	0
 				    label      	"Main page")
 				icon       	"boundary"
@@ -1713,7 +1713,7 @@
 				    location   	(2000, 237)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	667
+				    max_width  	671
 				    justify    	0
 				    label      	"Private page")
 				icon       	"boundary"
@@ -1744,7 +1744,7 @@
 				    location   	(2438, 1259)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	447
+				    max_width  	450
 				    justify    	0
 				    label      	"Verification")
 				icon       	"control"
@@ -1759,7 +1759,7 @@
 				x_offset   	0.000000
 				y_offset   	0.000000)
 			    (object ObjectView "log_in" @62
-				location   	(1197, 540)
+				location   	(1233, 612)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -1771,10 +1771,10 @@
 				    default_color 	TRUE)
 				label      	(object ItemLabel
 				    Parent_View 	@62
-				    location   	(1196, 696)
+				    location   	(1232, 768)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	671
+				    max_width  	675
 				    justify    	0
 				    label      	"log_in")
 				icon       	"boundary"
@@ -1805,7 +1805,7 @@
 				    location   	(1064, 1542)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	675
+				    max_width  	679
 				    justify    	0
 				    label      	"List tour")
 				icon       	"boundary"
@@ -1836,7 +1836,7 @@
 				    location   	(1182, 1185)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	520
+				    max_width  	523
 				    justify    	0
 				    label      	"Tour selection menu")
 				icon       	"entity"
@@ -1866,7 +1866,7 @@
 				    location   	(996, 1878)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	523
+				    max_width  	527
 				    justify    	0
 				    label      	"Reserve confirmation")
 				icon       	"entity"
@@ -1947,11 +1947,11 @@
 				client     	@58
 				supplier   	@62
 				vertices   	(list Points
-				    (153, 389)
-				    (1083, 519))
+				    (153, 394)
+				    (1117, 583))
 				line_style 	0)
 			    (object MessView "" @71
-				location   	(624, 410)
+				location   	(644, 445)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -1964,7 +1964,7 @@
 				line_color 	3342489
 				label      	(object SegLabel @72
 				    Parent_View 	@71
-				    location   	(629, 366)
+				    location   	(653, 402)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -1988,8 +1988,8 @@
 				height     	45
 				orientation 	0
 				dir        	1
-				origin     	(565, 402)
-				terminus   	(683, 418))
+				origin     	(585, 433)
+				terminus   	(703, 457))
 			    (object LinkView "" @73
 				stereotype 	TRUE
 				line_color 	3342489
@@ -2047,8 +2047,8 @@
 				client     	@59
 				supplier   	@62
 				vertices   	(list Points
-				    (1411, 383)
-				    (1298, 464))
+				    (1344, 494)
+				    (1302, 536))
 				line_style 	0)
 			    (object LinkView "" @77
 				stereotype 	TRUE
@@ -2217,11 +2217,11 @@
 				client     	@62
 				supplier   	@61
 				vertices   	(list Points
-				    (1309, 588)
-				    (2361, 1061))
+				    (1345, 655)
+				    (2359, 1063))
 				line_style 	0)
 			    (object MessView "" @88
-				location   	(1852, 784)
+				location   	(1869, 818)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -2234,7 +2234,7 @@
 				line_color 	3342489
 				label      	(object SegLabel @89
 				    Parent_View 	@88
-				    location   	(1871, 744)
+				    location   	(1885, 777)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -2258,10 +2258,10 @@
 				height     	45
 				orientation 	0
 				dir        	1
-				origin     	(1797, 759)
-				terminus   	(1907, 809))
+				origin     	(1813, 796)
+				terminus   	(1925, 840))
 			    (object MessView "" @90
-				location   	(1817, 865)
+				location   	(1836, 901)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -2274,7 +2274,7 @@
 				line_color 	3342489
 				label      	(object SegLabel @91
 				    Parent_View 	@90
-				    location   	(1800, 906)
+				    location   	(1821, 943)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -2298,8 +2298,8 @@
 				height     	45
 				orientation 	1
 				dir        	-1
-				origin     	(1871, 889)
-				terminus   	(1763, 841))
+				origin     	(1891, 922)
+				terminus   	(1781, 880))
 			    (object LinkView "" @92
 				stereotype 	TRUE
 				line_color 	3342489
@@ -2806,7 +2806,7 @@
 				    autoResize 	TRUE)
 				(object DecisionView "$UNNAMED$3" @108
 				    Parent_View 	@103
-				    location   	(276, 2670)
+				    location   	(258, 2139)
 				    icon_style 	"Icon"
 				    line_color 	3342489
 				    fill_color 	13434879
@@ -2814,7 +2814,7 @@
 				    autoResize 	TRUE)
 				(object ActivityStateView "Sabt" @109
 				    Parent_View 	@103
-				    location   	(291, 1989)
+				    location   	(273, 1458)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -2826,7 +2826,7 @@
 					default_color 	TRUE)
 				    label      	(object ItemLabel
 					Parent_View 	@109
-					location   	(291, 1992)
+					location   	(273, 1461)
 					fill_color 	13434879
 					anchor_loc 	1
 					nlines     	2
@@ -2847,13 +2847,13 @@
 				    client     	@107
 				    supplier   	@109
 				    vertices   	(list Points
-					(285, 1277)
-					(290, 1926))
+					(281, 1277)
+					(276, 1395))
 				    line_style 	0
 				    x_offset   	FALSE)
 				(object ActivityStateView "Flag Mohem" @111
 				    Parent_View 	@103
-				    location   	(297, 2277)
+				    location   	(279, 1746)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -2865,7 +2865,7 @@
 					default_color 	TRUE)
 				    label      	(object ItemLabel
 					Parent_View 	@111
-					location   	(297, 2280)
+					location   	(279, 1749)
 					fill_color 	13434879
 					anchor_loc 	1
 					nlines     	2
@@ -2886,8 +2886,8 @@
 				    client     	@109
 				    supplier   	@111
 				    vertices   	(list Points
-					(292, 2050)
-					(295, 2215))
+					(274, 1519)
+					(277, 1684))
 				    line_style 	0
 				    x_offset   	FALSE)
 				(object TransView "" @113
@@ -2897,8 +2897,8 @@
 				    client     	@111
 				    supplier   	@108
 				    vertices   	(list Points
-					(293, 2338)
-					(276, 2633))
+					(275, 1807)
+					(258, 2102))
 				    line_style 	0
 				    x_offset   	FALSE)
 				(object Swimlane "System" @114
@@ -3007,7 +3007,7 @@
 				    x_offset   	FALSE)
 				(object ActivityStateView "Import dar database" @121
 				    Parent_View 	@114
-				    location   	(1026, 2754)
+				    location   	(1020, 2223)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -3019,7 +3019,7 @@
 					default_color 	TRUE)
 				    label      	(object ItemLabel
 					Parent_View 	@121
-					location   	(1026, 2757)
+					location   	(1020, 2226)
 					fill_color 	13434879
 					anchor_loc 	1
 					nlines     	2
@@ -3045,7 +3045,7 @@
 					default_color 	TRUE)
 				    label      	(object SegLabel @123
 					Parent_View 	@122
-					location   	(609, 2657)
+					location   	(595, 2126)
 					font       	(object Font
 					    size       	12
 					    face       	"Tahoma"
@@ -3069,13 +3069,13 @@
 				    client     	@108
 				    supplier   	@121
 				    vertices   	(list Points
-					(351, 2670)
-					(854, 2732))
+					(333, 2139)
+					(848, 2202))
 				    line_style 	0
 				    x_offset   	FALSE)
 				(object StateView "EndState" "$UNNAMED$4" @124
 				    Parent_View 	@114
-				    location   	(1053, 3093)
+				    location   	(1023, 2469)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -3087,7 +3087,7 @@
 					default_color 	TRUE)
 				    label      	(object ItemLabel
 					Parent_View 	@124
-					location   	(1107, 3051)
+					location   	(1077, 2427)
 					nlines     	2
 					max_width  	600
 					justify    	1
@@ -3189,7 +3189,7 @@
 				    width      	538)
 				(object ActivityStateView "Payam be modir" @131
 				    Parent_View 	@130
-				    location   	(2147, 2190)
+				    location   	(2130, 1659)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -3201,7 +3201,7 @@
 					default_color 	TRUE)
 				    label      	(object ItemLabel
 					Parent_View 	@131
-					location   	(2147, 2193)
+					location   	(2130, 1662)
 					fill_color 	13434879
 					anchor_loc 	1
 					nlines     	2
@@ -3227,7 +3227,7 @@
 					default_color 	TRUE)
 				    label      	(object SegLabel @133
 					Parent_View 	@132
-					location   	(1031, 2180)
+					location   	(1013, 1649)
 					font       	(object Font
 					    size       	12
 					    face       	"Tahoma"
@@ -3251,9 +3251,9 @@
 				    client     	@108
 				    supplier   	@131
 				    vertices   	(list Points
-					(276, 2633)
-					(609, 2237)
-					(1970, 2195))
+					(258, 2102)
+					(591, 1706)
+					(1953, 1664))
 				    line_style 	0
 				    x_offset   	FALSE)
 				(object TransView "" @134
@@ -3263,9 +3263,9 @@
 				    client     	@131
 				    supplier   	@121
 				    vertices   	(list Points
-					(2148, 2252)
-					(2160, 2792)
-					(1202, 2759))
+					(2131, 1721)
+					(2142, 2261)
+					(1196, 2228))
 				    line_style 	0
 				    x_offset   	FALSE)
 				(object Swimlane "" @135
@@ -3279,8 +3279,8 @@
 				    client     	@121
 				    supplier   	@124
 				    vertices   	(list Points
-					(1030, 2816)
-					(1049, 3051))
+					(1020, 2285)
+					(1022, 2426))
 				    line_style 	0
 				    x_offset   	FALSE)))))
 		logical_models 	(list unit_reference_list
@@ -3938,15 +3938,15 @@
 				    location   	(3585, 255)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	459
+				    max_width  	423
 				    justify    	0
 				    label      	"Data base")
-				icon       	"View"
+				icon       	"Table"
 				icon_style 	"Icon"
 				line_color 	3342489
 				fill_color 	13434879
 				quidu      	"4BB79DCC0000"
-				width      	153
+				width      	282
 				height     	2262
 				icon_height 	153
 				icon_width 	153
@@ -4593,7 +4593,7 @@
 				    location   	(195, 688)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	487
+				    max_width  	490
 				    justify    	0
 				    label      	"Modiriat")
 				icon       	"Actor"
@@ -4622,7 +4622,7 @@
 				    location   	(164, 1233)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	661
+				    max_width  	664
 				    justify    	0
 				    label      	"Main page")
 				icon       	"boundary"
@@ -4653,7 +4653,7 @@
 				    location   	(482, 237)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	664
+				    max_width  	667
 				    justify    	0
 				    label      	"log_in")
 				icon       	"boundary"
@@ -4684,7 +4684,7 @@
 				    location   	(2117, 329)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	444
+				    max_width  	447
 				    justify    	0
 				    label      	"Verification")
 				icon       	"control"
@@ -4714,7 +4714,7 @@
 				    location   	(443, 1557)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	667
+				    max_width  	671
 				    justify    	0
 				    label      	"Private page")
 				icon       	"boundary"
@@ -4745,7 +4745,7 @@
 				    location   	(1647, 1692)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	567
+				    max_width  	571
 				    justify    	0
 				    label      	"Management menu")
 				icon       	"entity"
@@ -4775,7 +4775,7 @@
 				    location   	(3092, 768)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	671
+				    max_width  	675
 				    justify    	0
 				    label      	"List gozareshat")
 				icon       	"boundary"
@@ -4806,7 +4806,7 @@
 				    location   	(1938, 1111)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	490
+				    max_width  	493
 				    justify    	0
 				    label      	"Karmand")
 				icon       	"Actor"
@@ -4835,7 +4835,7 @@
 				    location   	(2831, 1424)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	447
+				    max_width  	450
 				    justify    	0
 				    label      	"Olaviat Gozaresh")
 				icon       	"control"
@@ -4850,7 +4850,7 @@
 				x_offset   	0.000000
 				y_offset   	0.000000)
 			    (object ObjectView "Data base" @209
-				location   	(3348, 1875)
+				location   	(3288, 1872)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -4862,13 +4862,13 @@
 				    default_color 	TRUE)
 				label      	(object ItemLabel
 				    Parent_View 	@209
-				    location   	(3347, 2031)
+				    location   	(3287, 2028)
 				    anchor_loc 	1
 				    nlines     	2
-				    max_width  	431
+				    max_width  	427
 				    justify    	0
 				    label      	"Data base")
-				icon       	"View"
+				icon       	"Table"
 				icon_style 	"Icon"
 				line_color 	3342489
 				fill_color 	13434879
@@ -5198,7 +5198,7 @@
 				supplier   	@209
 				vertices   	(list Points
 				    (1721, 1548)
-				    (3272, 1855))
+				    (3212, 1852))
 				line_style 	0)
 			    (object LinkView "" @230
 				stereotype 	TRUE
@@ -5378,11 +5378,11 @@
 				client     	@206
 				supplier   	@209
 				vertices   	(list Points
-				    (3127, 797)
-				    (3328, 1799))
+				    (3123, 827)
+				    (3271, 1796))
 				line_style 	0)
 			    (object MessView "" @241
-				location   	(3272, 1290)
+				location   	(3241, 1305)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -5395,7 +5395,7 @@
 				line_color 	3342489
 				label      	(object SegLabel @242
 				    Parent_View 	@241
-				    location   	(3332, 1282)
+				    location   	(3319, 1298)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -5406,7 +5406,6 @@
 					color      	0
 					default_color 	TRUE)
 				    quidu      	"4BB79EE3033E"
-				    anchor_loc 	1
 				    nlines     	1
 				    max_width  	450
 				    justify    	0
@@ -5419,10 +5418,10 @@
 				height     	45
 				orientation 	0
 				dir        	1
-				origin     	(3260, 1231)
-				terminus   	(3284, 1349))
+				origin     	(3232, 1246)
+				terminus   	(3250, 1364))
 			    (object MessView "" @243
-				location   	(3185, 1307)
+				location   	(3154, 1318)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -5435,7 +5434,7 @@
 				line_color 	3342489
 				label      	(object SegLabel @244
 				    Parent_View 	@243
-				    location   	(3142, 1315)
+				    location   	(3114, 1325)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -5446,7 +5445,6 @@
 					color      	0
 					default_color 	TRUE)
 				    quidu      	"4BB798F80177"
-				    anchor_loc 	1
 				    nlines     	1
 				    max_width  	450
 				    justify    	0
@@ -5459,8 +5457,8 @@
 				height     	45
 				orientation 	1
 				dir        	-1
-				origin     	(3196, 1365)
-				terminus   	(3174, 1249))
+				origin     	(3162, 1376)
+				terminus   	(3146, 1260))
 			    (object LinkView "" @245
 				stereotype 	TRUE
 				line_color 	3342489
@@ -5877,8 +5875,8 @@
 			    zoom       	93
 			    max_height 	28350
 			    max_width  	21600
-			    origin_x   	0
-			    origin_y   	0
+			    origin_x   	1210
+			    origin_y   	1896
 			    items      	(list diagram_item_list
 				(object Swimlane "Moshtari" @251
 				    line_color 	3342489
@@ -5886,7 +5884,7 @@
 				    width      	1112)
 				(object StateView "StartState" "$UNNAMED$6" @252
 				    Parent_View 	@251
-				    location   	(201, 183)
+				    location   	(255, 207)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -5898,7 +5896,7 @@
 					default_color 	TRUE)
 				    label      	(object ItemLabel
 					Parent_View 	@252
-					location   	(243, 153)
+					location   	(297, 177)
 					nlines     	2
 					max_width  	600
 					justify    	1
@@ -5921,7 +5919,7 @@
 					default_color 	TRUE)
 				    label      	(object ItemLabel
 					Parent_View 	@253
-					location   	(249, 456)
+					location   	(249, 454)
 					fill_color 	13434879
 					anchor_loc 	1
 					nlines     	2
@@ -5942,8 +5940,8 @@
 				    client     	@252
 				    supplier   	@253
 				    vertices   	(list Points
-					(206, 213)
-					(239, 390))
+					(254, 236)
+					(250, 391))
 				    line_style 	0
 				    x_offset   	FALSE)
 				(object ActivityStateView "Entekhab Tour" @255
@@ -5960,7 +5958,7 @@
 					default_color 	TRUE)
 				    label      	(object ItemLabel
 					Parent_View 	@255
-					location   	(522, 1167)
+					location   	(522, 1165)
 					fill_color 	13434879
 					anchor_loc 	1
 					nlines     	2
@@ -5988,7 +5986,7 @@
 					default_color 	TRUE)
 				    label      	(object ItemLabel
 					Parent_View 	@256
-					location   	(579, 1542)
+					location   	(579, 1540)
 					fill_color 	13434879
 					anchor_loc 	1
 					nlines     	2
@@ -6027,7 +6025,7 @@
 					default_color 	TRUE)
 				    label      	(object ItemLabel
 					Parent_View 	@258
-					location   	(321, 1968)
+					location   	(321, 1966)
 					fill_color 	13434879
 					anchor_loc 	1
 					nlines     	2
@@ -6056,7 +6054,7 @@
 					default_color 	TRUE)
 				    label      	(object ItemLabel
 					Parent_View 	@259
-					location   	(775, 1971)
+					location   	(775, 1969)
 					fill_color 	13434879
 					anchor_loc 	1
 					nlines     	2
@@ -6085,7 +6083,7 @@
 					default_color 	TRUE)
 				    label      	(object ItemLabel
 					Parent_View 	@260
-					location   	(825, 2238)
+					location   	(825, 2236)
 					fill_color 	13434879
 					anchor_loc 	1
 					nlines     	2
@@ -6130,7 +6128,7 @@
 					default_color 	TRUE)
 				    label      	(object ItemLabel
 					Parent_View 	@263
-					location   	(1365, 456)
+					location   	(1365, 454)
 					fill_color 	13434879
 					anchor_loc 	1
 					nlines     	2
@@ -6188,7 +6186,7 @@
 					default_color 	TRUE)
 				    label      	(object ItemLabel
 					Parent_View 	@267
-					location   	(1374, 3412)
+					location   	(1374, 3409)
 					fill_color 	13434879
 					anchor_loc 	1
 					nlines     	2
@@ -6206,7 +6204,7 @@
 				    location   	(1672, 0)
 				    line_color 	3342489
 				    quidu      	"4BB79A5F03C9"
-				    width      	570)
+				    width      	582)
 				(object ActivityStateView "Namayesh list tour" @269
 				    Parent_View 	@268
 				    location   	(1937, 762)
@@ -6221,7 +6219,7 @@
 					default_color 	TRUE)
 				    label      	(object ItemLabel
 					Parent_View 	@269
-					location   	(1937, 765)
+					location   	(1937, 763)
 					fill_color 	13434879
 					anchor_loc 	1
 					nlines     	2
@@ -6249,7 +6247,7 @@
 				    x_offset   	FALSE)
 				(object ActivityStateView "Namayesh Resid Kharid" @271
 				    Parent_View 	@268
-				    location   	(1968, 3762)
+				    location   	(1981, 3543)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -6261,7 +6259,7 @@
 					default_color 	TRUE)
 				    label      	(object ItemLabel
 					Parent_View 	@271
-					location   	(1968, 3765)
+					location   	(1981, 3544)
 					fill_color 	13434879
 					anchor_loc 	1
 					nlines     	2
@@ -6283,13 +6281,13 @@
 				    client     	@267
 				    supplier   	@271
 				    vertices   	(list Points
-					(1478, 3469)
-					(1863, 3700))
+					(1536, 3444)
+					(1802, 3503))
 				    line_style 	0
 				    x_offset   	FALSE)
 				(object StateView "EndState" "$UNNAMED$13" @273
 				    Parent_View 	@268
-				    location   	(1968, 4239)
+				    location   	(1983, 3792)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -6301,7 +6299,7 @@
 					default_color 	TRUE)
 				    label      	(object ItemLabel
 					Parent_View 	@273
-					location   	(2022, 4197)
+					location   	(2037, 3750)
 					nlines     	2
 					max_width  	600
 					justify    	1
@@ -6311,13 +6309,13 @@
 				    quidu      	"4BB8A0DE00BC"
 				    autoResize 	TRUE)
 				(object Swimlane "System API bank" @274
-				    location   	(2242, 0)
+				    location   	(2254, 0)
 				    line_color 	3342489
 				    quidu      	"4BB79CC3036B"
 				    width      	656)
 				(object ActivityStateView "Check kardan tarakonesh" @275
 				    Parent_View 	@274
-				    location   	(2570, 2235)
+				    location   	(2582, 2235)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -6329,7 +6327,7 @@
 					default_color 	TRUE)
 				    label      	(object ItemLabel
 					Parent_View 	@275
-					location   	(2570, 2200)
+					location   	(2582, 2198)
 					fill_color 	13434879
 					anchor_loc 	1
 					nlines     	2
@@ -6352,12 +6350,12 @@
 				    supplier   	@275
 				    vertices   	(list Points
 					(1031, 2235)
-					(2310, 2235))
+					(2322, 2235))
 				    line_style 	0
 				    x_offset   	FALSE)
 				(object DecisionView "$UNNAMED$11" @277
 				    Parent_View 	@274
-				    location   	(2564, 2556)
+				    location   	(2576, 2556)
 				    icon_style 	"Icon"
 				    line_color 	3342489
 				    fill_color 	13434879
@@ -6370,18 +6368,18 @@
 				    client     	@275
 				    supplier   	@277
 				    vertices   	(list Points
-					(2567, 2336)
-					(2564, 2519))
+					(2579, 2336)
+					(2576, 2519))
 				    line_style 	0
 				    x_offset   	FALSE)
 				(object Swimlane "Karmand" @279
-				    location   	(2898, 0)
+				    location   	(2910, 0)
 				    line_color 	3342489
 				    quidu      	"4BB79E4901C5"
-				    width      	750)
+				    width      	678)
 				(object ActivityStateView "Baresi Etelaat moshtari" @280
 				    Parent_View 	@279
-				    location   	(3179, 2910)
+				    location   	(3192, 2910)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -6393,7 +6391,7 @@
 					default_color 	TRUE)
 				    label      	(object ItemLabel
 					Parent_View 	@280
-					location   	(3179, 2913)
+					location   	(3192, 2911)
 					fill_color 	13434879
 					anchor_loc 	1
 					nlines     	2
@@ -6410,7 +6408,7 @@
 				    autoResize 	TRUE)
 				(object DecisionView "$UNNAMED$12" @281
 				    Parent_View 	@279
-				    location   	(3513, 3138)
+				    location   	(3444, 3207)
 				    icon_style 	"Icon"
 				    line_color 	3342489
 				    fill_color 	13434879
@@ -6423,16 +6421,16 @@
 				    client     	@280
 				    supplier   	@281
 				    vertices   	(list Points
-					(3269, 2972)
-					(3438, 3138))
+					(3244, 2971)
+					(3444, 3170))
 				    line_style 	0
 				    x_offset   	FALSE)
 				(object Swimlane "" @283
-				    location   	(3648, 0)
+				    location   	(3588, 0)
 				    line_color 	3342489
 				    width      	450)
 				(object SynchronizationView "$UNNAMED$9" @284
-				    location   	(552, 1749)
+				    location   	(558, 1803)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -6444,7 +6442,7 @@
 					default_color 	TRUE)
 				    label      	(object ItemLabel
 					Parent_View 	@284
-					location   	(714, 1669)
+					location   	(720, 1725)
 					nlines     	2
 					max_width  	300
 					justify    	1
@@ -6462,8 +6460,8 @@
 				    client     	@284
 				    supplier   	@259
 				    vertices   	(list Points
-					(561, 1758)
-					(711, 1906))
+					(570, 1812)
+					(694, 1906))
 				    line_style 	0
 				    x_offset   	FALSE)
 				(object TransView "" @286
@@ -6473,8 +6471,8 @@
 				    client     	@284
 				    supplier   	@258
 				    vertices   	(list Points
-					(540, 1758)
-					(384, 1902))
+					(543, 1812)
+					(409, 1903))
 				    line_style 	0
 				    x_offset   	FALSE)
 				(object TransView "" @287
@@ -6484,12 +6482,12 @@
 				    client     	@256
 				    supplier   	@284
 				    vertices   	(list Points
-					(571, 1600)
-					(553, 1739))
+					(574, 1600)
+					(558, 1793))
 				    line_style 	0
 				    x_offset   	FALSE)
 				(object SynchronizationView "$UNNAMED$10" @288
-				    location   	(582, 2727)
+				    location   	(588, 2781)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -6501,7 +6499,7 @@
 					default_color 	TRUE)
 				    label      	(object ItemLabel
 					Parent_View 	@288
-					location   	(744, 2649)
+					location   	(750, 2703)
 					nlines     	2
 					max_width  	300
 					justify    	1
@@ -6519,8 +6517,8 @@
 				    client     	@258
 				    supplier   	@288
 				    vertices   	(list Points
-					(342, 2026)
-					(578, 2717))
+					(341, 2027)
+					(584, 2771))
 				    line_style 	0
 				    x_offset   	FALSE)
 				(object TransView "" @290
@@ -6530,8 +6528,9 @@
 				    client     	@288
 				    supplier   	@280
 				    vertices   	(list Points
-					(723, 2736)
-					(2979, 2895))
+					(587, 2790)
+					(584, 3026)
+					(2992, 2918))
 				    line_style 	0
 				    x_offset   	FALSE)
 				(object TransView "" @291
@@ -6541,8 +6540,8 @@
 				    client     	@271
 				    supplier   	@273
 				    vertices   	(list Points
-					(1968, 3824)
-					(1968, 4197))
+					(1981, 3605)
+					(1982, 3749))
 				    line_style 	0
 				    x_offset   	FALSE)
 				(object TransView "" @292
@@ -6557,7 +6556,7 @@
 					default_color 	TRUE)
 				    label      	(object SegLabel @293
 					Parent_View 	@292
-					location   	(611, 785)
+					location   	(816, 668)
 					font       	(object Font
 					    size       	12
 					    face       	"Tahoma"
@@ -6582,8 +6581,7 @@
 				    supplier   	@253
 				    vertices   	(list Points
 					(1263, 762)
-					(195, 726)
-					(238, 496))
+					(395, 489))
 				    line_style 	0
 				    x_offset   	FALSE)
 				(object TransView "" @294
@@ -6638,89 +6636,7 @@
 					default_color 	TRUE)
 				    label      	(object SegLabel @297
 					Parent_View 	@296
-					location   	(2317, 3187)
-					font       	(object Font
-					    size       	12
-					    face       	"Tahoma"
-					    bold       	FALSE
-					    italics    	FALSE
-					    underline  	FALSE
-					    strike     	FALSE
-					    color      	0
-					    default_color 	TRUE)
-					anchor_loc 	1
-					nlines     	1
-					max_width  	450
-					justify    	0
-					label      	"Yes"
-					pctDist    	0.496807
-					height     	45
-					orientation 	0)
-				    stereotype 	TRUE
-				    line_color 	16711680
-				    quidu      	"4BB79E5902DE"
-				    client     	@281
-				    supplier   	@267
-				    vertices   	(list Points
-					(3438, 3138)
-					(1381, 3146)
-					(1375, 3346))
-				    line_style 	0
-				    x_offset   	FALSE)
-				(object TransView "" @298
-				    font       	(object Font
-					size       	12
-					face       	"Tahoma"
-					bold       	FALSE
-					italics    	FALSE
-					underline  	FALSE
-					strike     	FALSE
-					color      	0
-					default_color 	TRUE)
-				    label      	(object SegLabel @299
-					Parent_View 	@298
-					location   	(2665, 1748)
-					font       	(object Font
-					    size       	12
-					    face       	"Tahoma"
-					    bold       	FALSE
-					    italics    	FALSE
-					    underline  	FALSE
-					    strike     	FALSE
-					    color      	0
-					    default_color 	TRUE)
-					anchor_loc 	1
-					nlines     	1
-					max_width  	450
-					justify    	0
-					label      	"No"
-					pctDist    	0.500000
-					height     	45
-					orientation 	0)
-				    stereotype 	TRUE
-				    line_color 	4227327
-				    quidu      	"4BB79ED80148"
-				    client     	@281
-				    supplier   	@256
-				    vertices   	(list Points
-					(3513, 3101)
-					(3192, 1744)
-					(753, 1552))
-				    line_style 	0
-				    x_offset   	FALSE)
-				(object TransView "" @300
-				    font       	(object Font
-					size       	12
-					face       	"Tahoma"
-					bold       	FALSE
-					italics    	FALSE
-					underline  	FALSE
-					strike     	FALSE
-					color      	0
-					default_color 	TRUE)
-				    label      	(object SegLabel @301
-					Parent_View 	@300
-					location   	(2532, 2262)
+					location   	(2539, 2263)
 					font       	(object Font
 					    size       	12
 					    face       	"Tahoma"
@@ -6744,12 +6660,12 @@
 				    client     	@277
 				    supplier   	@256
 				    vertices   	(list Points
-					(2564, 2519)
+					(2576, 2519)
 					(2541, 1805)
 					(749, 1562))
 				    line_style 	0
 				    x_offset   	FALSE)
-				(object TransView "" @302
+				(object TransView "" @298
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -6759,9 +6675,9 @@
 					strike     	FALSE
 					color      	0
 					default_color 	TRUE)
-				    label      	(object SegLabel @303
-					Parent_View 	@302
-					location   	(2327, 2571)
+				    label      	(object SegLabel @299
+					Parent_View 	@298
+					location   	(2338, 2576)
 					font       	(object Font
 					    size       	12
 					    face       	"Tahoma"
@@ -6785,9 +6701,91 @@
 				    client     	@277
 				    supplier   	@288
 				    vertices   	(list Points
-					(2489, 2556)
-					(786, 2534)
-					(590, 2717))
+					(2501, 2556)
+					(789, 2591)
+					(596, 2771))
+				    line_style 	0
+				    x_offset   	FALSE)
+				(object TransView "" @300
+				    font       	(object Font
+					size       	12
+					face       	"Tahoma"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    label      	(object SegLabel @301
+					Parent_View 	@300
+					location   	(2284, 3219)
+					font       	(object Font
+					    size       	12
+					    face       	"Tahoma"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					anchor_loc 	1
+					nlines     	1
+					max_width  	450
+					justify    	0
+					label      	"Yes"
+					pctDist    	0.496807
+					height     	45
+					orientation 	0)
+				    stereotype 	TRUE
+				    line_color 	16711680
+				    quidu      	"4BB79E5902DE"
+				    client     	@281
+				    supplier   	@267
+				    vertices   	(list Points
+					(3369, 3207)
+					(1382, 3147)
+					(1375, 3345))
+				    line_style 	0
+				    x_offset   	FALSE)
+				(object TransView "" @302
+				    font       	(object Font
+					size       	12
+					face       	"Tahoma"
+					bold       	FALSE
+					italics    	FALSE
+					underline  	FALSE
+					strike     	FALSE
+					color      	0
+					default_color 	TRUE)
+				    label      	(object SegLabel @303
+					Parent_View 	@302
+					location   	(2894, 1623)
+					font       	(object Font
+					    size       	12
+					    face       	"Tahoma"
+					    bold       	FALSE
+					    italics    	FALSE
+					    underline  	FALSE
+					    strike     	FALSE
+					    color      	0
+					    default_color 	TRUE)
+					anchor_loc 	1
+					nlines     	1
+					max_width  	450
+					justify    	0
+					label      	"No"
+					pctDist    	0.500000
+					height     	45
+					orientation 	0)
+				    stereotype 	TRUE
+				    line_color 	4227327
+				    quidu      	"4BB79ED80148"
+				    client     	@281
+				    supplier   	@256
+				    vertices   	(list Points
+					(3444, 3170)
+					(3449, 1587)
+					(755, 1541))
 				    line_style 	0
 				    x_offset   	FALSE))))))
 	    (object UseCase "Kharid bilit"
@@ -6883,7 +6881,7 @@
 			    location   	(2145, 1501)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	490
+			    max_width  	493
 			    justify    	0
 			    label      	"Modiriat")
 			icon       	"Actor"
@@ -6983,7 +6981,7 @@
 			    location   	(330, 484)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	490
+			    max_width  	493
 			    justify    	0
 			    label      	"Moshtari")
 			icon       	"Actor"
@@ -7075,7 +7073,7 @@
 			    location   	(2118, 517)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	490
+			    max_width  	493
 			    justify    	0
 			    label      	"Karmand")
 			icon       	"Actor"
@@ -7177,7 +7175,7 @@
 			    location   	(918, 1255)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	490
+			    max_width  	493
 			    justify    	0
 			    label      	"Hotel")
 			icon       	"Actor"
@@ -7224,13 +7222,30 @@
 			    location   	(1923, 1906)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	490
+			    max_width  	493
 			    justify    	0
 			    label      	"Modiriat")
 			icon       	"Actor"
 			icon_style 	"Icon"
 			line_color 	3342489
 			quidu      	"4BB7978C037A"
+			compartment 	(object Compartment
+			    Parent_View 	@323
+			    location   	(1570, 1951)
+			    font       	(object Font
+				size       	12
+				face       	"Tahoma"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	9
+			    max_width  	684
+			    justify    	0)
 			annotation 	8
 			autoResize 	TRUE)
 		    (object ClassView "Class" "Use Case View::Hotel" @324
@@ -7252,13 +7267,30 @@
 			    location   	(756, 1372)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	490
+			    max_width  	493
 			    justify    	0
 			    label      	"Hotel")
 			icon       	"Actor"
 			icon_style 	"Icon"
 			line_color 	3342489
 			quidu      	"4BB79A220261"
+			compartment 	(object Compartment
+			    Parent_View 	@324
+			    location   	(449, 1417)
+			    font       	(object Font
+				size       	12
+				face       	"Tahoma"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	6
+			    max_width  	594
+			    justify    	0)
 			annotation 	8
 			autoResize 	TRUE)
 		    (object UseCaseView "Use Case View::Reserve kardan" @325
@@ -7315,7 +7347,7 @@
 			supplier   	@326
 			vertices   	(list Points
 			    (813, 1171)
-			    (1108, 974))
+			    (1210, 905))
 			line_style 	0)
 		    (object DependencyView "" @328
 			stereotype 	TRUE
@@ -7324,7 +7356,7 @@
 			client     	@325
 			supplier   	@326
 			vertices   	(list Points
-			    (1095, 623)
+			    (1021, 572)
 			    (1276, 748))
 			line_style 	0)
 		    (object UseCaseView "Use Case View::Reserve bilit" @329
@@ -7402,13 +7434,30 @@
 			    location   	(372, 592)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	490
+			    max_width  	493
 			    justify    	0
 			    label      	"Moshtari")
 			icon       	"Actor"
 			icon_style 	"Icon"
 			line_color 	3342489
 			quidu      	"4BB7976F037A"
+			compartment 	(object Compartment
+			    Parent_View 	@332
+			    location   	(74, 637)
+			    font       	(object Font
+				size       	12
+				face       	"Tahoma"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	11
+			    max_width  	575
+			    justify    	0)
 			annotation 	8
 			autoResize 	TRUE)
 		    (object DependencyView "" @333
@@ -7429,7 +7478,7 @@
 			supplier   	@331
 			vertices   	(list Points
 			    (956, 398)
-			    (1056, 349))
+			    (1237, 254))
 			line_style 	0)
 		    (object Label @335
 			location   	(834, 255)
@@ -7480,7 +7529,7 @@
 			    location   	(2076, 247)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	490
+			    max_width  	493
 			    justify    	0
 			    label      	"TourLeader")
 			icon       	"Actor"
@@ -7508,13 +7557,30 @@
 			    location   	(2844, 481)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	490
+			    max_width  	493
 			    justify    	0
 			    label      	"Karmand")
 			icon       	"Actor"
 			icon_style 	"Icon"
 			line_color 	3342489
 			quidu      	"4BB7977E0290"
+			compartment 	(object Compartment
+			    Parent_View 	@338
+			    location   	(2490, 526)
+			    font       	(object Font
+				size       	12
+				face       	"Tahoma"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	8
+			    max_width  	688
+			    justify    	0)
 			annotation 	8
 			autoResize 	TRUE)
 		    (object DependencyView "" @339
@@ -7548,7 +7614,7 @@
 			    (1485, 192))
 			line_style 	0)
 		    (object UseCaseView "Use Case View::Gozareshat" @342
-			location   	(2106, 1041)
+			location   	(2241, 1101)
 			font       	(object Font
 			    size       	12
 			    face       	"Tahoma"
@@ -7560,7 +7626,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@342
-			    location   	(2106, 1179)
+			    location   	(2241, 1239)
 			    anchor_loc 	1
 			    nlines     	2
 			    max_width  	630
@@ -7572,14 +7638,14 @@
 			quidu      	"4BB7987700AC"
 			height     	118)
 		    (object AssociationViewNew "$UNNAMED$17" @343
-			location   	(2330, 820)
+			location   	(2385, 911)
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"4BB798D3003E"
 			roleview_list 	(list RoleViews
 			    (object RoleView "$UNNAMED$19" @344
 				Parent_View 	@343
-				location   	(257, -290)
+				location   	(312, -199)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -7591,7 +7657,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @345
 				    Parent_View 	@344
-				    location   	(2437, 660)
+				    location   	(2435, 783)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -7617,12 +7683,12 @@
 				client     	@343
 				supplier   	@338
 				vertices   	(list Points
-				    (2330, 820)
-				    (2785, 375))
+				    (2385, 911)
+				    (2489, 781))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$18" @346
 				Parent_View 	@343
-				location   	(257, -290)
+				location   	(312, -199)
 				font       	(object Font
 				    size       	12
 				    face       	"Tahoma"
@@ -7634,7 +7700,7 @@
 				    default_color 	TRUE)
 				label      	(object SegLabel @347
 				    Parent_View 	@346
-				    location   	(2167, 922)
+				    location   	(2270, 991)
 				    font       	(object Font
 					size       	12
 					face       	"Tahoma"
@@ -7660,8 +7726,8 @@
 				client     	@343
 				supplier   	@342
 				vertices   	(list Points
-				    (2330, 820)
-				    (2160, 983))
+				    (2385, 911)
+				    (2281, 1042))
 				line_style 	0)))
 		    (object DependencyView "" @348
 			stereotype 	TRUE
@@ -7670,8 +7736,8 @@
 			client     	@338
 			supplier   	@342
 			vertices   	(list Points
-			    (2785, 375)
-			    (2161, 983))
+			    (2489, 781)
+			    (2281, 1042))
 			line_style 	0)
 		    (object DependencyView "" @349
 			stereotype 	TRUE
@@ -7680,8 +7746,8 @@
 			client     	@323
 			supplier   	@342
 			vertices   	(list Points
-			    (1942, 1664)
-			    (2058, 1208))
+			    (1958, 1666)
+			    (2157, 1268))
 			line_style 	0)
 		    (object Label @350
 			location   	(1488, 33)
@@ -7826,7 +7892,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(243, 396)
+			location   	(246, 615)
 			font       	(object Font
 			    size       	12
 			    face       	"Tahoma"
@@ -7838,16 +7904,33 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@359
-			    location   	(243, 556)
+			    location   	(246, 775)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	490
+			    max_width  	493
 			    justify    	0
 			    label      	"Moshtari")
 			icon       	"Actor"
 			icon_style 	"Icon"
 			line_color 	3342489
 			quidu      	"4BB7976F037A"
+			compartment 	(object Compartment
+			    Parent_View 	@359
+			    location   	(-43, 820)
+			    font       	(object Font
+				size       	12
+				face       	"Tahoma"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	11
+			    max_width  	575
+			    justify    	0)
 			annotation 	8
 			autoResize 	TRUE)
 		    (object UseCaseView "Use Case View::Cancel Kardan kharid" @360
@@ -7881,8 +7964,8 @@
 			client     	@359
 			supplier   	@360
 			vertices   	(list Points
-			    (300, 407)
-			    (678, 496))
+			    (303, 602)
+			    (679, 539))
 			line_style 	0)
 		    (object UseCaseView "Use Case View::Kharid tour" @362
 			location   	(1581, 207)
@@ -7964,7 +8047,7 @@
 			supplier   	@362
 			vertices   	(list Points
 			    (897, 479)
-			    (1260, 333))
+			    (1471, 247))
 			line_style 	0)
 		    (object DependencyView "" @366
 			stereotype 	TRUE
@@ -7983,14 +8066,14 @@
 			client     	@360
 			supplier   	@364
 			vertices   	(list Points
-			    (1109, 655)
+			    (1020, 619)
 			    (1507, 826))
 			line_style 	0)
 		    (object ClassView "Class" "Use Case View::Karmand" @368
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(2391, 474)
+			location   	(2997, 168)
 			font       	(object Font
 			    size       	12
 			    face       	"Tahoma"
@@ -8002,16 +8085,33 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@368
-			    location   	(2391, 634)
+			    location   	(2997, 328)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	490
+			    max_width  	493
 			    justify    	0
 			    label      	"Karmand")
 			icon       	"Actor"
 			icon_style 	"Icon"
 			line_color 	3342489
 			quidu      	"4BB7977E0290"
+			compartment 	(object Compartment
+			    Parent_View 	@368
+			    location   	(2652, 373)
+			    font       	(object Font
+				size       	12
+				face       	"Tahoma"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	8
+			    max_width  	688
+			    justify    	0)
 			annotation 	8
 			autoResize 	TRUE)
 		    (object DependencyView "" @369
@@ -8021,8 +8121,8 @@
 			client     	@362
 			supplier   	@368
 			vertices   	(list Points
-			    (1901, 310)
-			    (2330, 453))
+			    (1689, 201)
+			    (2937, 168))
 			line_style 	0)
 		    (object DependencyView "" @370
 			stereotype 	TRUE
@@ -8031,8 +8131,8 @@
 			client     	@363
 			supplier   	@368
 			vertices   	(list Points
-			    (1704, 536)
-			    (2332, 477))
+			    (1704, 519)
+			    (2936, 182))
 			line_style 	0)
 		    (object DependencyView "" @371
 			stereotype 	TRUE
@@ -8041,8 +8141,8 @@
 			client     	@364
 			supplier   	@368
 			vertices   	(list Points
-			    (1723, 815)
-			    (2330, 502))
+			    (1724, 815)
+			    (2936, 196))
 			line_style 	0)
 		    (object UseCaseView "Use Case View::Baresi Darkhast" @372
 			location   	(2289, 1026)
@@ -8087,13 +8187,30 @@
 			    location   	(2250, 1816)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	490
+			    max_width  	493
 			    justify    	0
 			    label      	"Modiriat")
 			icon       	"Actor"
 			icon_style 	"Icon"
 			line_color 	3342489
 			quidu      	"4BB7978C037A"
+			compartment 	(object Compartment
+			    Parent_View 	@373
+			    location   	(1897, 1861)
+			    font       	(object Font
+				size       	12
+				face       	"Tahoma"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	9
+			    max_width  	685
+			    justify    	0)
 			annotation 	8
 			autoResize 	TRUE)
 		    (object DependencyView "" @374
@@ -8103,8 +8220,8 @@
 			client     	@368
 			supplier   	@372
 			vertices   	(list Points
-			    (2353, 663)
-			    (2298, 967))
+			    (2651, 590)
+			    (2331, 968))
 			line_style 	0)
 		    (object DependencyView "" @375
 			stereotype 	TRUE
@@ -8120,7 +8237,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(2814, 921)
+			location   	(3132, 1206)
 			font       	(object Font
 			    size       	12
 			    face       	"Tahoma"
@@ -8132,16 +8249,33 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@376
-			    location   	(2814, 1081)
+			    location   	(3132, 1366)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	490
+			    max_width  	493
 			    justify    	0
 			    label      	"Hotel")
 			icon       	"Actor"
 			icon_style 	"Icon"
 			line_color 	3342489
 			quidu      	"4BB79A220261"
+			compartment 	(object Compartment
+			    Parent_View 	@376
+			    location   	(2825, 1411)
+			    font       	(object Font
+				size       	12
+				face       	"Tahoma"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	6
+			    max_width  	594
+			    justify    	0)
 			annotation 	8
 			autoResize 	TRUE)
 		    (object DependencyView "" @377
@@ -8151,8 +8285,8 @@
 			client     	@372
 			supplier   	@376
 			vertices   	(list Points
-			    (2397, 1001)
-			    (2755, 930))
+			    (2397, 1045)
+			    (3072, 1191))
 			line_style 	0)
 		    (object Label @378
 			location   	(1713, 723)
@@ -8230,7 +8364,7 @@
 			justify    	1
 			label      	"<<include>>")
 		    (object UseCaseView "Use Case View::BazgashtPol" @383
-			location   	(1647, 1362)
+			location   	(1611, 1281)
 			font       	(object Font
 			    size       	12
 			    face       	"Tahoma"
@@ -8242,7 +8376,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@383
-			    location   	(1647, 1500)
+			    location   	(1611, 1419)
 			    anchor_loc 	1
 			    nlines     	2
 			    max_width  	630
@@ -8260,8 +8394,8 @@
 			client     	@372
 			supplier   	@383
 			vertices   	(list Points
-			    (1968, 1192)
-			    (1752, 1303))
+			    (2116, 1087)
+			    (1719, 1237))
 			line_style 	0)
 		    (object Label @385
 			location   	(2403, 990)
@@ -8309,7 +8443,7 @@
 			justify    	1
 			label      	"<<exclude>>")
 		    (object Label @388
-			location   	(1674, 1167)
+			location   	(1710, 1140)
 			font       	(object Font
 			    size       	12
 			    face       	"Tahoma"
@@ -8354,7 +8488,7 @@
 			justify    	1
 			label      	"<<exclude>>")
 		    (object UseCaseView "Use Case View::Etebari" @391
-			location   	(966, 1113)
+			location   	(888, 1239)
 			font       	(object Font
 			    size       	12
 			    face       	"Tahoma"
@@ -8366,7 +8500,7 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@391
-			    location   	(966, 1251)
+			    location   	(888, 1377)
 			    anchor_loc 	1
 			    nlines     	2
 			    max_width  	630
@@ -8408,8 +8542,8 @@
 			client     	@383
 			supplier   	@392
 			vertices   	(list Points
-			    (1326, 1477)
-			    (1083, 1565))
+			    (1476, 1350)
+			    (1079, 1549))
 			line_style 	0)
 		    (object DependencyView "" @394
 			stereotype 	TRUE
@@ -8418,11 +8552,11 @@
 			client     	@383
 			supplier   	@391
 			vertices   	(list Points
-			    (1536, 1319)
-			    (1286, 1227))
+			    (1501, 1270)
+			    (996, 1242))
 			line_style 	0)
 		    (object Label @395
-			location   	(1095, 1197)
+			location   	(1083, 1209)
 			font       	(object Font
 			    size       	12
 			    face       	"Tahoma"
@@ -8443,8 +8577,8 @@
 			client     	@359
 			supplier   	@383
 			vertices   	(list Points
-			    (300, 434)
-			    (1564, 1304))
+			    (303, 642)
+			    (1500, 1226))
 			line_style 	0)
 		    (object Label @397
 			location   	(705, 864)
@@ -8520,9 +8654,11 @@
 		class_attributes 	(list class_attribute_list
 		    (object ClassAttribute "code"
 			quid       	"4BB79D7300B6"
+			type       	"Integer"
 			exportControl 	"Implementation")
 		    (object ClassAttribute "name"
 			quid       	"4BB79D7300B7"
+			type       	"String"
 			exportControl 	"Public")
 		    (object ClassAttribute "cost"
 			quid       	"4BB79D7300B8"
@@ -8597,9 +8733,11 @@
 			class_attributes 	(list class_attribute_list
 			    (object ClassAttribute "code"
 				quid       	"4BB79F1D034C"
+				type       	"Integer"
 				exportControl 	"Implementation")
 			    (object ClassAttribute "name"
 				quid       	"4BB79F1D036B"
+				type       	"String"
 				exportControl 	"Public")
 			    (object ClassAttribute "cost"
 				quid       	"4BB79F1D037B"
@@ -8630,20 +8768,51 @@
 			    (object ClassAttribute "vip_level"
 				quid       	"4BB79F2F01E4"
 				type       	"Integer"
-				exportControl 	"Protected"))))))
+				exportControl 	"Protected")))))
+	    (object Class "Bank API"
+		quid       	"4BB797A9007D"
+		stereotype 	"Interface"
+		exportControl 	"Implementation"
+		operations 	(list Operations
+		    (object Operation "get_account_details"
+			quid       	"4BB79C1C006D"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "do_refund"
+			quid       	"4BB79C280167"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "bardasht"
+			quid       	"4BB79C350119"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0)
+		    (object Operation "variz"
+			quid       	"4BB79C4201C5"
+			concurrency 	"Sequential"
+			opExportControl 	"Public"
+			uid        	0))
+		class_attributes 	(list class_attribute_list
+		    (object ClassAttribute "name"
+			quid       	"4BB79C4B009C"
+			type       	"String"
+			exportControl 	"Public")
+		    (object ClassAttribute "max_input"
+			quid       	"4BB79C5F00DA"
+			type       	"Integer"
+			initv      	"20"
+			exportControl 	"Implementation")
+		    (object ClassAttribute "password"
+			quid       	"4BB79C810290"
+			type       	"String"))
+		abstract   	TRUE
+		concurrency 	"Active"))
 	logical_presentations 	(list unit_reference_list
-	    (object ClassDiagram "Main"
+	    (object ClassDiagram "Main Users CD"
 		quid       	"4BB7973C009C"
-		title      	"Main"
-		zoom       	100
-		max_height 	28350
-		max_width  	21600
-		origin_x   	0
-		origin_y   	0
-		items      	(list diagram_item_list))
-	    (object ClassDiagram "ClassDiagram"
-		quid       	"4BB797AD03C9"
-		title      	"ClassDiagram"
+		title      	"Main Users CD"
 		zoom       	100
 		max_height 	28350
 		max_width  	21600
@@ -8654,7 +8823,7 @@
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(1032, 300)
+			location   	(930, 156)
 			font       	(object Font
 			    size       	12
 			    face       	"Tahoma"
@@ -8662,27 +8831,44 @@
 			    italics    	FALSE
 			    underline  	FALSE
 			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
+			    color      	16711680
+			    default_color 	FALSE)
 			label      	(object ItemLabel
 			    Parent_View 	@398
-			    location   	(1032, 460)
+			    location   	(930, 316)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	362
+			    max_width  	493
 			    justify    	0
 			    label      	"Moshtari")
 			icon       	"Actor"
 			icon_style 	"Icon"
 			line_color 	3342489
 			quidu      	"4BB7976F037A"
+			compartment 	(object Compartment
+			    Parent_View 	@398
+			    location   	(632, 415)
+			    font       	(object Font
+				size       	12
+				face       	"Tahoma"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	11
+			    max_width  	572
+			    justify    	0)
 			annotation 	8
 			autoResize 	TRUE)
 		    (object ClassView "Class" "Use Case View::Modiriat" @399
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(413, 299)
+			location   	(312, 156)
 			font       	(object Font
 			    size       	12
 			    face       	"Tahoma"
@@ -8690,27 +8876,89 @@
 			    italics    	FALSE
 			    underline  	FALSE
 			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
+			    color      	16711680
+			    default_color 	FALSE)
 			label      	(object ItemLabel
 			    Parent_View 	@399
-			    location   	(413, 459)
+			    location   	(312, 316)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	362
+			    max_width  	493
 			    justify    	0
 			    label      	"Modiriat")
 			icon       	"Actor"
 			icon_style 	"Icon"
 			line_color 	3342489
 			quidu      	"4BB7978C037A"
+			compartment 	(object Compartment
+			    Parent_View 	@399
+			    location   	(-41, 415)
+			    font       	(object Font
+				size       	12
+				face       	"Tahoma"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	9
+			    max_width  	681
+			    justify    	0)
 			annotation 	8
 			autoResize 	TRUE)
 		    (object ClassView "Class" "Use Case View::Karmand" @400
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(1674, 294)
+			location   	(1572, 150)
+			font       	(object Font
+			    size       	12
+			    face       	"Tahoma"
+			    bold       	FALSE
+			    italics    	FALSE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	16711680
+			    default_color 	FALSE)
+			label      	(object ItemLabel
+			    Parent_View 	@400
+			    location   	(1572, 310)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	493
+			    justify    	0
+			    label      	"Karmand")
+			icon       	"Actor"
+			icon_style 	"Icon"
+			line_color 	4194368
+			quidu      	"4BB7977E0290"
+			compartment 	(object Compartment
+			    Parent_View 	@400
+			    location   	(1218, 409)
+			    font       	(object Font
+				size       	12
+				face       	"Tahoma"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	1296253245
+				default_color 	FALSE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	8
+			    max_width  	681
+			    justify    	0)
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Use Case View::Hotel" @401
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(2262, 168)
 			font       	(object Font
 			    size       	12
 			    face       	"Tahoma"
@@ -8721,24 +8969,50 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@400
-			    location   	(1674, 454)
+			    Parent_View 	@401
+			    location   	(2262, 328)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	362
+			    max_width  	493
 			    justify    	0
-			    label      	"Karmand")
+			    label      	"Hotel")
 			icon       	"Actor"
 			icon_style 	"Icon"
 			line_color 	3342489
-			quidu      	"4BB7977E0290"
+			quidu      	"4BB79A220261"
+			compartment 	(object Compartment
+			    Parent_View 	@401
+			    location   	(1955, 427)
+			    font       	(object Font
+				size       	12
+				face       	"Tahoma"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	6
+			    max_width  	594
+			    justify    	0)
 			annotation 	8
-			autoResize 	TRUE)
-		    (object ClassView "Class" "Logical View::tour" @401
+			autoResize 	TRUE)))
+	    (object ClassDiagram "Systems CD"
+		quid       	"4BB797AD03C9"
+		title      	"Systems CD"
+		zoom       	100
+		max_height 	28350
+		max_width  	21600
+		origin_x   	0
+		origin_y   	0
+		items      	(list diagram_item_list
+		    (object ClassView "Class" "Logical View::tour" @402
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(2436, 273)
+			location   	(1053, 168)
 			font       	(object Font
 			    size       	12
 			    face       	"Arial"
@@ -8750,8 +9024,8 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@401
-			    location   	(2435, 429)
+			    Parent_View 	@402
+			    location   	(1052, 324)
 			    anchor_loc 	1
 			    nlines     	1
 			    max_width  	781
@@ -8762,46 +9036,33 @@
 			line_color 	3342489
 			fill_color 	13434879
 			quidu      	"4BB79D7300AC"
-			width      	230
-			height     	154
-			annotation 	8
-			autoResize 	TRUE)
-		    (object ClassView "Class" "Logical View::tour::Vip_tours" @402
-			ShowCompartmentStereotypes 	TRUE
-			IncludeAttribute 	TRUE
-			IncludeOperation 	TRUE
-			location   	(1086, 1491)
-			font       	(object Font
-			    size       	12
-			    face       	"Tahoma"
-			    bold       	FALSE
-			    italics    	FALSE
-			    underline  	FALSE
-			    strike     	FALSE
-			    color      	0
-			    default_color 	TRUE)
-			label      	(object ItemLabel
+			compartment 	(object Compartment
 			    Parent_View 	@402
-			    location   	(1085, 1647)
-			    anchor_loc 	1
-			    nlines     	2
-			    max_width  	789
-			    justify    	0
-			    label      	"Vip_tours")
-			icon       	"boundary"
-			icon_style 	"Icon"
-			line_color 	3342489
-			fill_color 	13434879
-			quidu      	"4BB79E9D0196"
+			    location   	(657, 368)
+			    font       	(object Font
+				size       	12
+				face       	"Arial"
+				charSet    	178
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	18
+			    max_width  	766
+			    justify    	0)
 			width      	230
 			height     	154
 			annotation 	8
 			autoResize 	TRUE)
-		    (object ClassView "Class" "Use Case View::Data_base" @403
+		    (object ClassView "Class" "Logical View::tour::Vip_tours" @403
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(384, 1518)
+			location   	(1806, 129)
 			font       	(object Font
 			    size       	12
 			    face       	"Tahoma"
@@ -8813,26 +9074,43 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@403
-			    location   	(383, 1674)
+			    location   	(1805, 285)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	513
+			    max_width  	789
 			    justify    	0
-			    label      	"Data_base")
-			icon       	"View"
+			    label      	"Vip_tours")
+			icon       	"boundary"
 			icon_style 	"Icon"
 			line_color 	3342489
 			fill_color 	13434879
-			quidu      	"4BB79DE7032D"
-			width      	154
+			quidu      	"4BB79E9D0196"
+			compartment 	(object Compartment
+			    Parent_View 	@403
+			    location   	(1459, 384)
+			    font       	(object Font
+				size       	12
+				face       	"Tahoma"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	18
+			    max_width  	669
+			    justify    	0)
+			width      	230
 			height     	154
 			annotation 	8
 			autoResize 	TRUE)
-		    (object ClassView "Class" "Use Case View::Hotel" @404
+		    (object ClassView "Class" "Use Case View::Data_base" @404
 			ShowCompartmentStereotypes 	TRUE
 			IncludeAttribute 	TRUE
 			IncludeOperation 	TRUE
-			location   	(1662, 1557)
+			location   	(393, 138)
 			font       	(object Font
 			    size       	12
 			    face       	"Tahoma"
@@ -8844,16 +9122,84 @@
 			    default_color 	TRUE)
 			label      	(object ItemLabel
 			    Parent_View 	@404
-			    location   	(1662, 1717)
+			    location   	(392, 294)
 			    anchor_loc 	1
 			    nlines     	2
-			    max_width  	362
+			    max_width  	634
 			    justify    	0
-			    label      	"Hotel")
-			icon       	"Actor"
+			    label      	"Data_base")
+			icon       	"Table"
 			icon_style 	"Icon"
 			line_color 	3342489
-			quidu      	"4BB79A220261"
+			fill_color 	13434879
+			quidu      	"4BB79DE7032D"
+			compartment 	(object Compartment
+			    Parent_View 	@404
+			    location   	(68, 393)
+			    font       	(object Font
+				size       	12
+				face       	"Tahoma"
+				bold       	FALSE
+				italics    	FALSE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	9
+			    max_width  	628
+			    justify    	0)
+			width      	154
+			height     	154
+			annotation 	8
+			autoResize 	TRUE)
+		    (object ClassView "Class" "Logical View::Bank API" @405
+			ShowCompartmentStereotypes 	TRUE
+			IncludeAttribute 	TRUE
+			IncludeOperation 	TRUE
+			location   	(2427, 234)
+			font       	(object Font
+			    size       	12
+			    face       	"Tahoma"
+			    bold       	FALSE
+			    italics    	TRUE
+			    underline  	FALSE
+			    strike     	FALSE
+			    color      	0
+			    default_color 	TRUE)
+			label      	(object ItemLabel
+			    Parent_View 	@405
+			    location   	(2426, 342)
+			    anchor_loc 	1
+			    nlines     	2
+			    max_width  	494
+			    justify    	0
+			    label      	"Bank API")
+			icon       	"Interface"
+			icon_style 	"Icon"
+			line_color 	3342489
+			fill_color 	13434879
+			quidu      	"4BB797A9007D"
+			compartment 	(object Compartment
+			    Parent_View 	@405
+			    location   	(2182, 387)
+			    font       	(object Font
+				size       	10
+				face       	"Tahoma"
+				bold       	FALSE
+				italics    	TRUE
+				underline  	FALSE
+				strike     	FALSE
+				color      	0
+				default_color 	TRUE)
+			    icon_style 	"Icon"
+			    anchor     	2
+			    nlines     	8
+			    max_width  	484
+			    justify    	0)
+			width      	58
+			height     	58
 			annotation 	8
 			autoResize 	TRUE)))))
     root_subsystem 	(object SubSystem "Component View"
@@ -9049,10 +9395,10 @@
 		zoom       	100
 		max_height 	28350
 		max_width  	21600
-		origin_x   	1676
+		origin_x   	1675
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object ModView "Component View::Moshtari Menu" "NotAModuleType" "NotAModulePart" @405
+		    (object ModView "Component View::Moshtari Menu" "NotAModuleType" "NotAModulePart" @406
 			location   	(435, 282)
 			font       	(object Font
 			    size       	12
@@ -9064,7 +9410,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@405
+			    Parent_View 	@406
 			    location   	(377, 257)
 			    fill_color 	13434879
 			    anchor_loc 	3
@@ -9080,7 +9426,7 @@
 			autoResize 	TRUE
 			width      	392
 			height     	162)
-		    (object ModView "Component View::tour_menu" "NotAModuleType" "NotAModulePart" @406
+		    (object ModView "Component View::tour_menu" "NotAModuleType" "NotAModulePart" @407
 			location   	(411, 771)
 			font       	(object Font
 			    size       	12
@@ -9092,7 +9438,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@406
+			    Parent_View 	@407
 			    location   	(344, 746)
 			    fill_color 	13434879
 			    anchor_loc 	3
@@ -9109,17 +9455,17 @@
 			autoResize 	TRUE
 			width      	456
 			height     	163)
-		    (object ModVisView "" @407
+		    (object ModVisView "" @408
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"4BB9ECEC02B0"
-			client     	@406
-			supplier   	@405
+			client     	@407
+			supplier   	@406
 			vertices   	(list Points
 			    (411, 690)
 			    (427, 360))
 			line_style 	0)
-		    (object ModView "Component View::online zarfiyat checking system" "NotAModuleType" "NotAModulePart" @408
+		    (object ModView "Component View::online zarfiyat checking system" "NotAModuleType" "NotAModulePart" @409
 			location   	(1428, 798)
 			font       	(object Font
 			    size       	12
@@ -9131,7 +9477,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@408
+			    Parent_View 	@409
 			    location   	(1317, 773)
 			    fill_color 	13434879
 			    anchor_loc 	3
@@ -9147,17 +9493,17 @@
 			autoResize 	TRUE
 			width      	756
 			height     	162)
-		    (object ModVisView "" @409
+		    (object ModVisView "" @410
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"4BB9ED1E01F4"
-			client     	@406
-			supplier   	@408
+			client     	@407
+			supplier   	@409
 			vertices   	(list Points
 			    (630, 774)
 			    (1063, 785))
 			line_style 	0)
-		    (object ModView "Component View::hotel API zarfiyat" "NotAModuleType" "NotAModulePart" @410
+		    (object ModView "Component View::hotel API zarfiyat" "NotAModuleType" "NotAModulePart" @411
 			location   	(1446, 297)
 			font       	(object Font
 			    size       	12
@@ -9169,7 +9515,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@410
+			    Parent_View 	@411
 			    location   	(1388, 272)
 			    fill_color 	13434879
 			    anchor_loc 	3
@@ -9185,17 +9531,17 @@
 			autoResize 	TRUE
 			width      	392
 			height     	162)
-		    (object ModVisView "" @411
+		    (object ModVisView "" @412
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"4BB9ED42001F"
-			client     	@410
-			supplier   	@408
+			client     	@411
+			supplier   	@409
 			vertices   	(list Points
 			    (1440, 375)
 			    (1428, 716))
 			line_style 	0)
-		    (object ModView "Component View::tour zarfiyat" "NotAModuleType" "NotAModulePart" @412
+		    (object ModView "Component View::tour zarfiyat" "NotAModuleType" "NotAModulePart" @413
 			location   	(2901, 279)
 			font       	(object Font
 			    size       	12
@@ -9207,7 +9553,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@412
+			    Parent_View 	@413
 			    location   	(2843, 254)
 			    fill_color 	13434879
 			    anchor_loc 	3
@@ -9223,7 +9569,7 @@
 			autoResize 	TRUE
 			width      	392
 			height     	162)
-		    (object ModView "Component View::select_tour" "NotAModuleType" "NotAModulePart" @413
+		    (object ModView "Component View::select_tour" "NotAModuleType" "NotAModulePart" @414
 			location   	(2895, 768)
 			font       	(object Font
 			    size       	12
@@ -9235,7 +9581,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@413
+			    Parent_View 	@414
 			    location   	(2819, 743)
 			    fill_color 	13434879
 			    anchor_loc 	3
@@ -9251,7 +9597,7 @@
 			autoResize 	TRUE
 			width      	518
 			height     	162)
-		    (object ModView "Component View::tour payment (Hesabdari)" "NotAModuleType" "NotAModulePart" @414
+		    (object ModView "Component View::tour payment (Hesabdari)" "NotAModuleType" "NotAModulePart" @415
 			location   	(2352, 1200)
 			font       	(object Font
 			    size       	12
@@ -9263,7 +9609,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@414
+			    Parent_View 	@415
 			    location   	(2251, 1175)
 			    fill_color 	13434879
 			    anchor_loc 	3
@@ -9279,7 +9625,7 @@
 			autoResize 	TRUE
 			width      	690
 			height     	162)
-		    (object ModView "Component View::Resid kharid movafagh" "NotAModuleType" "NotAModulePart" @415
+		    (object ModView "Component View::Resid kharid movafagh" "NotAModuleType" "NotAModulePart" @416
 			location   	(1374, 1206)
 			font       	(object Font
 			    size       	12
@@ -9291,7 +9637,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@415
+			    Parent_View 	@416
 			    location   	(1298, 1181)
 			    fill_color 	13434879
 			    anchor_loc 	3
@@ -9307,17 +9653,17 @@
 			autoResize 	TRUE
 			width      	514
 			height     	162)
-		    (object ModVisView "" @416
+		    (object ModVisView "" @417
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"4BB9EEB6033C"
-			client     	@415
-			supplier   	@414
+			client     	@416
+			supplier   	@415
 			vertices   	(list Points
 			    (1620, 1202)
 			    (2018, 1200))
 			line_style 	0)
-		    (object ModView "Component View::Database" "NotAModuleType" "NotAModulePart" @417
+		    (object ModView "Component View::Database" "NotAModuleType" "NotAModulePart" @418
 			location   	(480, 1212)
 			font       	(object Font
 			    size       	12
@@ -9329,7 +9675,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@417
+			    Parent_View 	@418
 			    location   	(422, 1187)
 			    fill_color 	13434879
 			    anchor_loc 	3
@@ -9345,44 +9691,44 @@
 			autoResize 	TRUE
 			width      	392
 			height     	162)
-		    (object ModVisView "" @418
+		    (object ModVisView "" @419
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"4BB9EF0B007D"
-			client     	@417
-			supplier   	@415
+			client     	@418
+			supplier   	@416
 			vertices   	(list Points
 			    (669, 1208)
 			    (1124, 1206))
 			line_style 	0)
-		    (object ModVisView "" @419
+		    (object ModVisView "" @420
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"4BB9ED630290"
-			client     	@412
-			supplier   	@408
+			client     	@413
+			supplier   	@409
 			vertices   	(list Points
 			    (2710, 275)
 			    (2288, 272)
 			    (2278, 766)
 			    (1789, 780))
 			line_style 	0)
-		    (object ModVisView "" @420
+		    (object ModVisView "" @421
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"4BB9EDAB01D5"
-			client     	@413
-			supplier   	@412
+			client     	@414
+			supplier   	@413
 			vertices   	(list Points
 			    (2895, 688)
 			    (2895, 357))
 			line_style 	0)
-		    (object ModVisView "" @421
+		    (object ModVisView "" @422
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"4BB9EE7900EA"
-			client     	@413
-			supplier   	@414
+			client     	@414
+			supplier   	@415
 			vertices   	(list Points
 			    (2887, 846)
 			    (2875, 1204)
@@ -9397,8 +9743,8 @@
 		origin_x   	0
 		origin_y   	488
 		items      	(list diagram_item_list
-		    (object ModView "Component View::Modir Menu" "NotAModuleType" "NotAModulePart" @422
-			location   	(1041, 231)
+		    (object ModView "Component View::Modir Menu" "NotAModuleType" "NotAModulePart" @423
+			location   	(1077, 222)
 			font       	(object Font
 			    size       	12
 			    face       	"Tahoma"
@@ -9409,8 +9755,8 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@422
-			    location   	(982, 206)
+			    Parent_View 	@423
+			    location   	(1018, 197)
 			    fill_color 	13434879
 			    anchor_loc 	3
 			    nlines     	2
@@ -9425,7 +9771,7 @@
 			autoResize 	TRUE
 			width      	398
 			height     	162)
-		    (object ModView "Component View::modiriat_menu" "NotAModuleType" "NotAModulePart" @423
+		    (object ModView "Component View::modiriat_menu" "NotAModuleType" "NotAModulePart" @424
 			location   	(1071, 546)
 			font       	(object Font
 			    size       	12
@@ -9437,7 +9783,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@423
+			    Parent_View 	@424
 			    location   	(1013, 521)
 			    fill_color 	13434879
 			    anchor_loc 	3
@@ -9453,18 +9799,18 @@
 			autoResize 	TRUE
 			width      	392
 			height     	162)
-		    (object ModVisView "" @424
+		    (object ModVisView "" @425
 			stereotype 	TRUE
 			line_color 	3342489
 			quidu      	"4BB9EC1A02FD"
-			client     	@423
-			supplier   	@422
+			client     	@424
+			supplier   	@423
 			vertices   	(list Points
-			    (1060, 460)
-			    (1046, 309))
+			    (1071, 460)
+			    (1071, 300))
 			line_style 	0)
-		    (object ModView "Component View::online tour list" "NotAModuleType" "NotAModulePart" @425
-			location   	(1770, 816)
+		    (object ModView "Component View::online tour list" "NotAModuleType" "NotAModulePart" @426
+			location   	(1773, 816)
 			font       	(object Font
 			    size       	12
 			    face       	"Tahoma"
@@ -9475,8 +9821,8 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@425
-			    location   	(1712, 791)
+			    Parent_View 	@426
+			    location   	(1715, 791)
 			    fill_color 	13434879
 			    anchor_loc 	3
 			    nlines     	2
@@ -9491,8 +9837,8 @@
 			autoResize 	TRUE
 			width      	392
 			height     	162)
-		    (object ModView "Component View::karmand menu" "NotAModuleType" "NotAModulePart" @426
-			location   	(1758, 255)
+		    (object ModView "Component View::karmand menu" "NotAModuleType" "NotAModulePart" @427
+			location   	(1785, 258)
 			font       	(object Font
 			    size       	12
 			    face       	"Tahoma"
@@ -9503,8 +9849,8 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@426
-			    location   	(1700, 230)
+			    Parent_View 	@427
+			    location   	(1727, 233)
 			    fill_color 	13434879
 			    anchor_loc 	3
 			    nlines     	2
@@ -9519,27 +9865,27 @@
 			autoResize 	TRUE
 			width      	392
 			height     	162)
-		    (object ModVisView "" @427
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"4BB9ECDF03D8"
-			client     	@426
-			supplier   	@425
-			vertices   	(list Points
-			    (1758, 333)
-			    (1764, 730))
-			line_style 	0)
 		    (object ModVisView "" @428
 			stereotype 	TRUE
 			line_color 	3342489
-			quidu      	"4BB9ECE40148"
-			client     	@425
-			supplier   	@423
+			quidu      	"4BB9ECDF03D8"
+			client     	@427
+			supplier   	@426
 			vertices   	(list Points
-			    (1577, 739)
-			    (1260, 619))
+			    (1779, 336)
+			    (1773, 730))
 			line_style 	0)
-		    (object ModView "Component View::Add tour" "NotAModuleType" "NotAModulePart" @429
+		    (object ModVisView "" @429
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"4BB9ECE40148"
+			client     	@426
+			supplier   	@424
+			vertices   	(list Points
+			    (1578, 739)
+			    (1260, 618))
+			line_style 	0)
+		    (object ModView "Component View::Add tour" "NotAModuleType" "NotAModulePart" @430
 			location   	(414, 915)
 			font       	(object Font
 			    size       	12
@@ -9551,7 +9897,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@429
+			    Parent_View 	@430
 			    location   	(355, 890)
 			    fill_color 	13434879
 			    anchor_loc 	3
@@ -9567,7 +9913,7 @@
 			autoResize 	TRUE
 			width      	398
 			height     	162)
-		    (object ModView "Component View::Modify tour" "NotAModuleType" "NotAModulePart" @430
+		    (object ModView "Component View::Modify tour" "NotAModuleType" "NotAModulePart" @431
 			location   	(384, 1143)
 			font       	(object Font
 			    size       	12
@@ -9579,7 +9925,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@430
+			    Parent_View 	@431
 			    location   	(326, 1118)
 			    fill_color 	13434879
 			    anchor_loc 	3
@@ -9595,7 +9941,7 @@
 			autoResize 	TRUE
 			width      	392
 			height     	162)
-		    (object ModView "Component View::remove tour" "NotAModuleType" "NotAModulePart" @431
+		    (object ModView "Component View::remove tour" "NotAModuleType" "NotAModulePart" @432
 			location   	(420, 1350)
 			font       	(object Font
 			    size       	12
@@ -9607,7 +9953,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@431
+			    Parent_View 	@432
 			    location   	(362, 1325)
 			    fill_color 	13434879
 			    anchor_loc 	3
@@ -9623,37 +9969,37 @@
 			autoResize 	TRUE
 			width      	392
 			height     	162)
-		    (object ModVisView "" @432
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"4BB9ED3001B5"
-			client     	@429
-			supplier   	@425
-			vertices   	(list Points
-			    (606, 897)
-			    (1577, 827))
-			line_style 	0)
 		    (object ModVisView "" @433
 			stereotype 	TRUE
 			line_color 	3342489
-			quidu      	"4BB9ED330280"
+			quidu      	"4BB9ED3001B5"
 			client     	@430
-			supplier   	@425
+			supplier   	@426
 			vertices   	(list Points
-			    (573, 1095)
-			    (1579, 857))
+			    (606, 897)
+			    (1580, 827))
 			line_style 	0)
 		    (object ModVisView "" @434
 			stereotype 	TRUE
 			line_color 	3342489
-			quidu      	"4BB9ED37034B"
+			quidu      	"4BB9ED330280"
 			client     	@431
-			supplier   	@425
+			supplier   	@426
+			vertices   	(list Points
+			    (573, 1095)
+			    (1582, 857))
+			line_style 	0)
+		    (object ModVisView "" @435
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"4BB9ED37034B"
+			client     	@432
+			supplier   	@426
 			vertices   	(list Points
 			    (609, 1273)
-			    (1577, 888))
+			    (1580, 888))
 			line_style 	0)
-		    (object ModView "Component View::Data base" "NotAModuleType" "NotAModulePart" @435
+		    (object ModView "Component View::Data base" "NotAModuleType" "NotAModulePart" @436
 			location   	(1770, 1194)
 			font       	(object Font
 			    size       	12
@@ -9665,7 +10011,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@435
+			    Parent_View 	@436
 			    location   	(1712, 1169)
 			    fill_color 	13434879
 			    anchor_loc 	3
@@ -9681,45 +10027,45 @@
 			autoResize 	TRUE
 			width      	392
 			height     	162)
-		    (object ModVisView "" @436
-			stereotype 	TRUE
-			line_color 	3342489
-			quidu      	"4BB9ED93035B"
-			client     	@425
-			supplier   	@435
-			vertices   	(list Points
-			    (1770, 894)
-			    (1770, 1112))
-			line_style 	0)
 		    (object ModVisView "" @437
 			stereotype 	TRUE
 			line_color 	3342489
-			quidu      	"4BB9EDBC0129"
-			client     	@423
-			supplier   	@429
+			quidu      	"4BB9ED93035B"
+			client     	@426
+			supplier   	@436
 			vertices   	(list Points
-			    (926, 624)
-			    (549, 834))
+			    (1769, 894)
+			    (1770, 1112))
 			line_style 	0)
 		    (object ModVisView "" @438
 			stereotype 	TRUE
 			line_color 	3342489
-			quidu      	"4BB9EDC001C5"
-			client     	@423
+			quidu      	"4BB9EDBC0129"
+			client     	@424
 			supplier   	@430
 			vertices   	(list Points
-			    (979, 624)
-			    (479, 1057))
+			    (926, 624)
+			    (549, 834))
 			line_style 	0)
 		    (object ModVisView "" @439
 			stereotype 	TRUE
 			line_color 	3342489
-			quidu      	"4BB9EDC40203"
-			client     	@423
+			quidu      	"4BB9EDC001C5"
+			client     	@424
 			supplier   	@431
 			vertices   	(list Points
+			    (979, 624)
+			    (472, 1061))
+			line_style 	0)
+		    (object ModVisView "" @440
+			stereotype 	TRUE
+			line_color 	3342489
+			quidu      	"4BB9EDC40203"
+			client     	@424
+			supplier   	@432
+			vertices   	(list Points
 			    (1006, 624)
-			    (488, 1264))
+			    (483, 1270))
 			line_style 	0))))
 	category   	"Logical View"
 	quidu      	"4BB7973B0233")
